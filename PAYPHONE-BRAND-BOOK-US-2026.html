@@ -1,0 +1,2049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payphone US Market Brand Book 2026</title>
+<style>
+:root {
+  --naranja: #FF6400;
+  --violeta: #5A00B4;
+  --amarillo: #FFA000;
+  --dark: #222222;
+  --white: #FFFFFF;
+  --gray-50: #FAFAFA;
+  --gray-100: #F5F5F5;
+  --gray-200: #E8E8E8;
+  --gray-400: #999999;
+  --gray-600: #666666;
+  --gray-800: #333333;
+  --gradient-sunset: linear-gradient(135deg, #FF6400, #FFA000);
+  --gradient-electric: linear-gradient(135deg, #FF6400, #5A00B4);
+  --gradient-dawn: linear-gradient(135deg, #FFA000, #FF6400, #5A00B4);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  color: var(--dark);
+  background: var(--white);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  background: var(--dark);
+  color: var(--white);
+  padding: 2rem 1.5rem;
+  overflow-y: auto;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+nav .nav-logo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--naranja);
+  margin-bottom: 0.25rem;
+}
+
+nav .nav-sub {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--gray-400);
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+nav a {
+  display: block;
+  color: var(--gray-400);
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s, padding-left 0.2s;
+  letter-spacing: 0.02em;
+}
+
+nav a:hover, nav a.active {
+  color: var(--naranja);
+  padding-left: 0.5rem;
+}
+
+nav a .nav-num {
+  color: var(--gray-600);
+  font-size: 0.7rem;
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+nav .nav-footer {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  font-size: 0.65rem;
+  color: var(--gray-600);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* MAIN */
+main {
+  margin-left: 260px;
+  min-height: 100vh;
+}
+
+/* HERO */
+.hero {
+  background: var(--dark);
+  color: var(--white);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 8rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -30%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(255,100,0,0.15) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -20%;
+  left: 20%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(90,0,180,0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.hero-eyebrow {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--naranja);
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+  max-width: 750px;
+}
+
+.hero h1 span {
+  background: var(--gradient-sunset);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-meta {
+  font-size: 0.8rem;
+  color: var(--gray-400);
+  letter-spacing: 0.05em;
+  position: relative;
+  z-index: 1;
+  margin-top: 3rem;
+}
+
+.hero-meta span {
+  margin-right: 2rem;
+}
+
+/* SECTIONS */
+section {
+  padding: 6rem 8rem;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+section:last-child { border-bottom: none; }
+
+.section-num {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--naranja);
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+h2.light { color: var(--white); }
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--gray-800);
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--gray-800);
+  max-width: 720px;
+  margin-bottom: 1.25rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--gray-600);
+  max-width: 680px;
+  margin-bottom: 2rem;
+}
+
+/* SPECIAL SECTIONS */
+.section-dark {
+  background: var(--dark);
+  color: var(--white);
+  border-bottom-color: rgba(255,255,255,0.1);
+}
+
+.section-dark h2, .section-dark h3, .section-dark h4, .section-dark p {
+  color: var(--white);
+}
+
+.section-dark .lead { color: var(--gray-400); }
+
+.section-accent {
+  background: var(--gray-50);
+}
+
+/* CARDS */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+}
+
+.card-dark {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.1);
+}
+
+.card-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--naranja);
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.card h4 {
+  margin-top: 0;
+  text-transform: none;
+  letter-spacing: -0.01em;
+  font-size: 1.1rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--gray-600);
+}
+
+.card-dark p { color: var(--gray-400); }
+
+/* DECLARATION */
+.declaration {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: var(--dark);
+  max-width: 700px;
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+  border-left: 4px solid var(--naranja);
+}
+
+.declaration-dark {
+  color: var(--white);
+}
+
+/* CALLOUTS */
+.callout {
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.callout-yes {
+  background: rgba(34,197,94,0.08);
+  border-left: 4px solid #22C55E;
+}
+
+.callout-no {
+  background: rgba(239,68,68,0.08);
+  border-left: 4px solid #EF4444;
+}
+
+.callout-tip {
+  background: rgba(255,100,0,0.08);
+  border-left: 4px solid var(--naranja);
+}
+
+.callout-label {
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.callout-yes .callout-label { color: #22C55E; }
+.callout-no .callout-label { color: #EF4444; }
+.callout-tip .callout-label { color: var(--naranja); }
+
+/* TABLES */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+th {
+  text-align: left;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--gray-400);
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid var(--gray-200);
+}
+
+td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--gray-200);
+  vertical-align: top;
+}
+
+.section-dark table th { border-bottom-color: rgba(255,255,255,0.15); }
+.section-dark table td { border-bottom-color: rgba(255,255,255,0.08); color: var(--gray-400); }
+
+/* PERSONAS */
+.persona {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 2.5rem;
+  margin: 2rem 0;
+}
+
+.persona-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.persona-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  flex-shrink: 0;
+}
+
+.persona-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.persona-role {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+}
+
+.persona-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.persona-section h5 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--naranja);
+  margin-bottom: 0.5rem;
+}
+
+.persona-section p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.persona-quote {
+  grid-column: 1 / -1;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--gray-600);
+  padding: 1.5rem;
+  background: var(--gray-50);
+  border-radius: 8px;
+  border-left: 4px solid var(--naranja);
+}
+
+/* COPY SHOWCASE */
+.showcase {
+  background: var(--gray-50);
+  border-radius: 12px;
+  padding: 2.5rem;
+  margin: 2rem 0;
+  border: 1px solid var(--gray-200);
+}
+
+.showcase-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--naranja);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.showcase-hero {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  color: var(--dark);
+  margin-bottom: 0.75rem;
+}
+
+.showcase-sub {
+  font-size: 1.1rem;
+  color: var(--gray-600);
+  line-height: 1.6;
+}
+
+.showcase-dark {
+  background: var(--dark);
+  border-color: rgba(255,255,255,0.1);
+}
+
+.showcase-dark .showcase-hero { color: var(--white); }
+.showcase-dark .showcase-sub { color: var(--gray-400); }
+
+.showcase-body {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--gray-800);
+  max-width: none;
+}
+
+.showcase-dark .showcase-body { color: rgba(255,255,255,0.8); }
+
+/* WORD CHIPS */
+.word-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.word-chip {
+  padding: 0.4rem 1rem;
+  border-radius: 100px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.word-own {
+  background: rgba(255,100,0,0.1);
+  color: var(--naranja);
+  border: 1px solid rgba(255,100,0,0.2);
+}
+
+.word-ban {
+  background: rgba(239,68,68,0.08);
+  color: #EF4444;
+  border: 1px solid rgba(239,68,68,0.15);
+  text-decoration: line-through;
+}
+
+/* STAT GRID */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.stat-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* DONTS */
+.dont-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.dont-num {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #EF4444;
+  background: rgba(239,68,68,0.08);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.dont-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.dont-text strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+/* PHASE TIMELINE */
+.phase {
+  border-left: 4px solid var(--naranja);
+  padding: 2rem 2.5rem;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.phase::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 2rem;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--naranja);
+  border: 3px solid var(--white);
+}
+
+.phase-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--naranja);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* COMPETITIVE TABLE */
+.comp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.comp-card {
+  border: 1px solid var(--gray-200);
+  border-radius: 12px;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.comp-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
+
+.comp-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.comp-claim {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.comp-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.comp-row:last-child { border-bottom: none; }
+
+/* TAG */
+.tag {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.tag-orange { background: rgba(255,100,0,0.1); color: var(--naranja); }
+.tag-purple { background: rgba(90,0,180,0.1); color: var(--violeta); }
+.tag-green { background: rgba(34,197,94,0.1); color: #16A34A; }
+.tag-red { background: rgba(239,68,68,0.1); color: #EF4444; }
+.tag-blue { background: rgba(59,130,246,0.1); color: #3B82F6; }
+
+/* MISC */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+blockquote {
+  border-left: 4px solid var(--naranja);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--gray-600);
+  background: var(--gray-50);
+  border-radius: 0 8px 8px 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--gray-200);
+  margin: 3rem 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  nav { display: none; }
+  main { margin-left: 0; }
+  .hero { padding: 4rem 3rem; }
+  .hero h1 { font-size: 3rem; }
+  section { padding: 4rem 3rem; }
+  h2 { font-size: 2.2rem; }
+  .persona-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .hero { padding: 3rem 1.5rem; }
+  .hero h1 { font-size: 2.2rem; }
+  section { padding: 3rem 1.5rem; }
+  h2 { font-size: 1.8rem; }
+  .card-grid { grid-template-columns: 1fr; }
+  .declaration { font-size: 1.4rem; }
+  .stat-grid { grid-template-columns: 1fr 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-logo">Payphone</div>
+  <div class="nav-sub">US Market Brand Book 2026</div>
+  <a href="#opportunity"><span class="nav-num">01</span>The US Opportunity</a>
+  <a href="#positioning"><span class="nav-num">02</span>US Brand Positioning</a>
+  <a href="#personas"><span class="nav-num">03</span>US Audience Personas</a>
+  <a href="#voice"><span class="nav-num">04</span>US Voice Adaptation</a>
+  <a href="#visual"><span class="nav-num">05</span>US Visual Identity</a>
+  <a href="#gtm"><span class="nav-num">06</span>Go-to-Market Strategy</a>
+  <a href="#investor"><span class="nav-num">07</span>Investor Narrative</a>
+  <a href="#copy"><span class="nav-num">08</span>US Copy Showcase</a>
+  <a href="#rules"><span class="nav-num">09</span>US Brand Rules</a>
+  <a href="#rollout"><span class="nav-num">10</span>Brand Rollout Phases</a>
+  <div class="nav-footer">
+    Confidential<br>
+    Unicore LLC &copy; 2026<br>
+    US Market Edition &mdash; March 2026
+  </div>
+</nav>
+
+<!-- HERO -->
+<main>
+<div class="hero" id="top">
+  <div class="hero-eyebrow">Payphone &mdash; US Market Brand Book 2026</div>
+  <h1>Built in the middle of the world.<br><span>Ready for America.</span></h1>
+  <p class="lead" style="color: var(--gray-400); max-width: 600px;">
+    This document defines how Payphone enters the United States &mdash; the brand strategy, audience positioning, voice adaptation, and go-to-market framework for reaching the 63 million Hispanic and Latino Americans who represent the largest underserved financial opportunity in the world's largest economy.
+  </p>
+  <div class="hero-meta">
+    <span>Unicore LLC</span>
+    <span>Version 1.0</span>
+    <span>March 2026</span>
+    <span>Confidential</span>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- 01 THE US OPPORTUNITY -->
+<!-- ============================================================ -->
+<section id="opportunity">
+  <div class="section-num">01 &mdash; The US Opportunity</div>
+  <h2>The $2.8 Trillion Market That Fintech Forgot</h2>
+  <p class="lead">The US Hispanic and Latino population is not a niche segment. It is the fifth-largest GDP in the world if measured as an independent economy. And the financial products built for this market are either translations of English-first tools or legacy remittance pipes that treat people as corridors, not customers.</p>
+
+  <h3>The Numbers That Matter</h3>
+  <div class="stat-grid">
+    <div class="stat-card" style="background: rgba(255,100,0,0.08); border: 1px solid rgba(255,100,0,0.15);">
+      <div class="stat-number" style="color: var(--naranja);">63M+</div>
+      <div class="stat-label" style="color: var(--gray-600);">Hispanic/Latino US Population</div>
+    </div>
+    <div class="stat-card" style="background: rgba(90,0,180,0.06); border: 1px solid rgba(90,0,180,0.12);">
+      <div class="stat-number" style="color: var(--violeta);">$2.8T</div>
+      <div class="stat-label" style="color: var(--gray-600);">Annual GDP Contribution</div>
+    </div>
+    <div class="stat-card" style="background: rgba(255,160,0,0.08); border: 1px solid rgba(255,160,0,0.15);">
+      <div class="stat-number" style="color: var(--amarillo);">$68B</div>
+      <div class="stat-label" style="color: var(--gray-600);">Annual Remittances to LATAM</div>
+    </div>
+    <div class="stat-card" style="background: rgba(255,100,0,0.08); border: 1px solid rgba(255,100,0,0.15);">
+      <div class="stat-number" style="color: var(--naranja);">30%</div>
+      <div class="stat-label" style="color: var(--gray-600);">US Population Growth (2010-2020)</div>
+    </div>
+  </div>
+
+  <h3>The Underserved Gap</h3>
+  <p>There are two kinds of financial products available to Hispanic and Latino Americans today. Neither one works.</p>
+
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-label" style="color: #EF4444;">Gap 01</div>
+      <h4>English-First Fintechs That Translate</h4>
+      <p>Venmo, Cash App, and Zelle were built for English-speaking millennials splitting bar tabs. They added Spanish as an afterthought &mdash; a language toggle buried in settings. The product architecture, the marketing language, the cultural assumptions, the onboarding flow &mdash; all of it was designed for someone else and translated. Translation is not localization. A Spanish-language Venmo is still Venmo. It does not understand that your aunt in Puebla needs her rent money by Friday, not "in 1-3 business days."</p>
+    </div>
+    <div class="card">
+      <div class="card-label" style="color: #EF4444;">Gap 02</div>
+      <h4>Remittance Pipes That Stop at the Border</h4>
+      <p>Remitly, Wise, and Western Union see Hispanic Americans as one end of a corridor. They are optimized for a single transaction: sending money home. They do not help you pay your landlord. They do not help you accept payments for your catering business. They do not give you a card. They are not a financial platform &mdash; they are a wire service with an app. The moment the money crosses the border, their relationship with you ends. Payphone's relationship begins.</p>
+    </div>
+  </div>
+
+  <h3>The Remittance Corridor as Entry Wedge</h3>
+  <p>The United States sends approximately $68 billion in remittances to Latin America every year. That is not a market &mdash; it is a river. And rivers have two banks.</p>
+  <p>Payphone already serves 2 million users on the receiving side of that river in Ecuador. When a user in Houston sends money to their family in Quito using a legacy wire service, the family in Quito may already be a Payphone user. This is the structural advantage no US-born fintech can replicate: <strong>Payphone owns the destination.</strong></p>
+  <p>The entry strategy is simple and powerful: start with the remittance. Own the corridor. Then expand into the sender's full financial life &mdash; P2P payments, merchant acceptance, cards, and everything else. The remittance is the door. The financial autonomy platform is the house.</p>
+
+  <div class="callout callout-tip">
+    <div class="callout-label">Structural Advantage</div>
+    <p><strong>"Built in LATAM" is not a liability. It is the proof point.</strong> Every US fintech entering LATAM has to learn the market from scratch. Payphone enters the US with millions of users already on the receiving end of cross-border flows. We are not starting from zero &mdash; we are completing the circuit.</p>
+  </div>
+
+  <h3>Five Macro Tailwinds</h3>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-label">Tailwind 01</div>
+      <h4>Demographic Inevitability</h4>
+      <p>Hispanic Americans are the youngest major demographic in the US, with a median age of 30 versus 41 for the general population. By 2045, the US will be a minority-majority country. Building for this audience is not a bet on a segment &mdash; it is a bet on the future composition of America.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Tailwind 02</div>
+      <h4>Entrepreneurship Surge</h4>
+      <p>Latino-owned businesses are growing at 2x the national rate. There are 4.7 million Hispanic-owned businesses in the US, the majority of them sole proprietorships and micro-businesses &mdash; exactly the merchant profile Payphone was built to serve. These are the taqueria owners, the cleaning service operators, the landscapers. They need TAP to Phone. They need payment links. They need zero-cost acceptance.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Tailwind 03</div>
+      <h4>The Bilingual Generation</h4>
+      <p>43 million Americans speak Spanish at home. But the next generation is not Spanish-only or English-only &mdash; they are both. They code-switch mid-sentence. They think in two languages. No major fintech has built a product that reflects this reality. Every fintech forces you to choose: English or Spanish. Payphone will be the first to say: both, always, naturally.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Tailwind 04</div>
+      <h4>Cross-Border Commerce Acceleration</h4>
+      <p>Post-pandemic, cross-border e-commerce between the US and LATAM has grown 35% annually. Small businesses on both sides of the border need a single platform to manage payments across currencies and countries. Payphone already operates in this space from the LATAM side. The US launch completes the infrastructure.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Tailwind 05</div>
+      <h4>Regulatory Momentum</h4>
+      <p>US regulators are actively encouraging fintech competition in underserved markets. The CFPB's open banking rules and state-level money transmitter modernization create structural openings for new entrants who serve populations that legacy banks have deprioritized. Payphone enters at the exact moment the regulatory door is widest.</p>
+    </div>
+  </div>
+
+  <hr>
+  <p><strong>The thesis in one sentence:</strong> The US Hispanic market is the size of a G7 economy, growing faster than any other US demographic, entrepreneurially hyperactive, and served by financial products that were either built for someone else or designed to extract a fee from a single transaction. Payphone was built from the ground up for this exact population &mdash; just on the other side of the border. Now we cross.</p>
+</section>
+
+<!-- ============================================================ -->
+<!-- 02 US BRAND POSITIONING -->
+<!-- ============================================================ -->
+<section id="positioning" class="section-dark">
+  <div class="section-num">02 &mdash; US Brand Positioning</div>
+  <h2 class="light">US Brand Positioning</h2>
+  <p class="lead">Positioning is the single sentence someone uses to describe you when you are not in the room. In the US market, Payphone needs two positioning statements &mdash; one for the people who will use the product, and one for the people who will fund the company.</p>
+
+  <h3 style="color: var(--naranja);">Consumer-Facing Positioning Statement</h3>
+  <div class="declaration declaration-dark" style="border-color: var(--naranja);">
+    For Hispanic and Latino Americans who manage money across two countries, two languages, and two financial systems, Payphone is the financial autonomy platform that unifies your entire financial life &mdash; paying, getting paid, sending money home, and running your business &mdash; in one app that speaks your language and costs you nothing, unlike legacy fintechs that were built in English and translated, because Payphone was born in Latin America and built for people who live between worlds.
+  </div>
+
+  <h3 style="color: var(--naranja);">Investor-Facing Positioning Statement</h3>
+  <div class="declaration declaration-dark" style="border-color: var(--amarillo);">
+    Payphone is the financial autonomy platform for the $2.8 trillion US Hispanic economy &mdash; a zero-cost, bilingual-native fintech that combines P2P payments, merchant acceptance (including TAP to Phone), remittance corridors, and card issuance in a single app, entering the US with 2M+ users already on the receiving end of cross-border flows and a proven unit economics model validated across Ecuador and Central America.
+  </div>
+
+  <h3 style="color: var(--naranja);">The US "Only" Statement</h3>
+  <div class="declaration declaration-dark" style="border-color: var(--violeta);">
+    Payphone is the only financial platform in the US market that combines bilingual-native UX, zero-cost P2P and merchant payments, TAP to Phone acceptance, cross-border remittances to LATAM, and card issuance &mdash; all in one app, built by a team that already serves 2 million users in the destination countries.
+  </div>
+  <p style="color: var(--gray-400);">This statement is designed to be tested. If a competitor can truthfully claim all six elements (bilingual-native, zero-cost, TAP to Phone, remittances, card, single app with LATAM presence), the positioning must evolve. As of March 2026, no competitor can.</p>
+
+  <h3 style="color: var(--naranja);">Category Being Created in the US</h3>
+  <h4 style="color: var(--white);">The Cross-Border Financial Autonomy Platform</h4>
+  <p>Payphone is not a remittance app. Remittance apps are corridors. Payphone is not a neobank for Hispanics. "Neobank for X demographic" is a slide, not a category. Payphone is not a Spanish Venmo. Venmo in Spanish is still Venmo.</p>
+  <p><strong>Payphone is a Cross-Border Financial Autonomy Platform:</strong> the first complete financial layer designed for people whose money, family, and business exist in more than one country. This category requires four structural elements:</p>
+  <ol style="color: var(--gray-400);">
+    <li><strong>Bilingual-native architecture.</strong> Not translation. Not a language toggle. A product that thinks in two languages because its users do. Copy, notifications, support, onboarding &mdash; all of it built in both languages from day one, with natural code-switching where appropriate.</li>
+    <li><strong>Cross-border by default.</strong> Every screen, every flow, every feature assumes the user has financial obligations in more than one country. Sending money to Quito is not a special feature &mdash; it is as natural as sending money across the street.</li>
+    <li><strong>Full financial stack.</strong> P2P payments, merchant acceptance, cards, links, e-commerce, remittances. One app. One account. No stitching together six apps to manage your financial life.</li>
+    <li><strong>Zero-cost foundation.</strong> The platform monetizes through merchant services and value-added products, never by taxing the individual's transactions. This is not a promotional rate &mdash; it is the business model.</li>
+  </ol>
+
+  <h3 style="color: var(--naranja);">US Competitive Map</h3>
+  <table>
+    <thead>
+      <tr>
+        <th style="color: var(--gray-400);">Competitor</th>
+        <th style="color: var(--gray-400);">Primary Use</th>
+        <th style="color: var(--gray-400);">Hispanic Focus</th>
+        <th style="color: var(--gray-400);">Cross-Border</th>
+        <th style="color: var(--gray-400);">Merchant Tools</th>
+        <th style="color: var(--gray-400);">Threat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="color: var(--white); font-weight: 700;">Venmo</td>
+        <td>P2P US only</td>
+        <td>None &mdash; English-first</td>
+        <td>No</td>
+        <td>Limited</td>
+        <td><span class="tag tag-orange">Medium</span></td>
+      </tr>
+      <tr>
+        <td style="color: var(--white); font-weight: 700;">Cash App</td>
+        <td>P2P + banking</td>
+        <td>None &mdash; US general</td>
+        <td>No</td>
+        <td>Basic</td>
+        <td><span class="tag tag-orange">Medium</span></td>
+      </tr>
+      <tr>
+        <td style="color: var(--white); font-weight: 700;">Zelle</td>
+        <td>Bank-to-bank P2P</td>
+        <td>None &mdash; bank-embedded</td>
+        <td>No</td>
+        <td>No</td>
+        <td><span class="tag tag-green">Low</span></td>
+      </tr>
+      <tr>
+        <td style="color: var(--white); font-weight: 700;">Remitly</td>
+        <td>Remittances only</td>
+        <td>Corridor-focused</td>
+        <td>Send only</td>
+        <td>No</td>
+        <td><span class="tag tag-orange">Medium</span></td>
+      </tr>
+      <tr>
+        <td style="color: var(--white); font-weight: 700;">Wise</td>
+        <td>FX + transfers</td>
+        <td>Minimal</td>
+        <td>Yes</td>
+        <td>Business only</td>
+        <td><span class="tag tag-green">Low</span></td>
+      </tr>
+      <tr>
+        <td style="color: var(--white); font-weight: 700;">DolarApp</td>
+        <td>Dollar access LATAM</td>
+        <td>LATAM-focused</td>
+        <td>Partial</td>
+        <td>No</td>
+        <td><span class="tag tag-green">Low</span></td>
+      </tr>
+      <tr>
+        <td style="color: var(--white); font-weight: 700;">Payphone</td>
+        <td>Full financial platform</td>
+        <td>Core &mdash; built for it</td>
+        <td>Native</td>
+        <td>Full (TAP, links, e-com)</td>
+        <td style="color: var(--naranja); font-weight: 700;">Category owner</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout callout-tip" style="background: rgba(255,100,0,0.05);">
+    <div class="callout-label">Positioning Test</div>
+    <p style="color: var(--gray-400);">Read the competitive map to a US-based VC who covers fintech. If their reaction is "no one is actually doing all of that for the Hispanic market," the positioning is working. The white space is not a gap in a crowded market &mdash; it is an entire unbuilt category.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 03 US AUDIENCE PERSONAS -->
+<!-- ============================================================ -->
+<section id="personas" class="section-accent">
+  <div class="section-num">03 &mdash; US Audience Personas</div>
+  <h2>US Audience Personas</h2>
+  <p class="lead">Three personas that represent the core of Payphone's US user base. These are not demographic abstractions &mdash; they are psychological portraits built around the specific financial tensions that Hispanic and Latino Americans navigate every day. Each one represents a different relationship with identity, language, and money.</p>
+
+  <!-- PERSONA 1 -->
+  <div class="persona">
+    <div class="persona-header">
+      <div class="persona-avatar" style="background: var(--gradient-sunset);">MR</div>
+      <div>
+        <div class="persona-name">Marco Ramirez</div>
+        <div class="persona-role">First-Generation Immigrant &bull; 34 &bull; Houston, TX</div>
+      </div>
+    </div>
+    <p><span class="tag tag-orange">Archetype: The Provider</span></p>
+    <div class="persona-grid">
+      <div class="persona-section">
+        <h5>Psychology</h5>
+        <p>Marco arrived from Guatemala eight years ago. He works construction and earns $3,200/month, paid in cash or direct deposit depending on the job. He sends $400-600 home to his mother and sister every month without fail. He is deeply financially responsible but largely invisible to the US financial system. He has a bank account at a regional bank &mdash; the minimum required to receive direct deposit &mdash; but the bank has never offered him a product that reflects his actual financial life. He does not see himself as "underbanked." He sees himself as someone the bank does not care about. He is right.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Pain Points</h5>
+        <p>Remittance fees eat 5-8% of every transfer to Guatemala &mdash; that is $240-576/year just to send his own money to his own family. His bank charges $12/month for an account he barely uses. He cannot accept Venmo or Zelle payments from his side jobs because his contacts are split between US and Guatemalan phone networks. He manages his money across three apps (bank, Western Union, WhatsApp for informal tracking) and trusts none of them completely.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Current Solution Stack</h5>
+        <p>Regional bank (grudging necessity), Western Union or Remitly (high cost, high trust), WhatsApp groups for informal lending circles with friends, cash for most daily transactions. He stores savings partly in his US account and partly as cash at home because he does not trust the banking system to not freeze his account over a documentation question.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Trigger Moment</h5>
+        <p>Marco's cousin in Quito tells him about Payphone &mdash; the family already uses it there. When Marco discovers he can send money directly to his mother's Payphone account at zero cost and she receives it instantly, the math changes overnight. He saves $400+ per year on remittance fees alone. That is a month of rent for his mother. The conversion is not emotional &mdash; it is arithmetic. Then he discovers he can also use the same app for P2P payments with his crew, accept payments for side jobs, and get a card. One app replaces four.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Emotional Conversion Need</h5>
+        <p>Marco needs to feel respected, not rescued. He is not a charity case. He is a provider who works harder than most people and sends money home because that is what family means. Payphone's brand must never position itself as "helping the underserved." It must position itself as the tool that finally matches the sophistication of Marco's actual financial life &mdash; a life that crosses borders, currencies, and languages every single day.</p>
+      </div>
+      <div class="persona-quote">
+        "I send money to my mother every two weeks. Western Union charges me $12 each time and the exchange rate is never what they say it is. I am paying $600 a year for the privilege of supporting my own family. Find me a better way and I will switch tonight."
+      </div>
+    </div>
+  </div>
+
+  <!-- PERSONA 2 -->
+  <div class="persona">
+    <div class="persona-header">
+      <div class="persona-avatar" style="background: var(--gradient-electric);">SV</div>
+      <div>
+        <div class="persona-name">Sofia Vargas</div>
+        <div class="persona-role">Bicultural Millennial &bull; 28 &bull; Miami, FL</div>
+      </div>
+    </div>
+    <p><span class="tag tag-purple">Archetype: The Bridge</span></p>
+    <div class="persona-grid">
+      <div class="persona-section">
+        <h5>Psychology</h5>
+        <p>Sofia was born in Miami to Colombian parents. She speaks perfect English and perfect Spanish and switches between them mid-conversation without thinking about it. She has a marketing job at a tech company ($72K/year), shops at Trader Joe's, listens to Bad Bunny and Billie Eilish in the same playlist, and watches both the Super Bowl and Copa America. She is fully American and fully Latina &mdash; she rejects the idea that she has to choose. She uses Venmo for splitting dinners and Zelle for rent, but neither app reflects the full picture of her financial identity. She occasionally sends money to her grandmother in Bogota through her parents, but she has never done it directly because the process feels like it was designed for someone older.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Pain Points</h5>
+        <p>No financial app speaks to her the way she actually lives. Venmo feels aggressively American. Remittance apps feel like they are built for her parents' generation &mdash; clunky, transactional, zero personality. She wants a financial product that reflects her bicultural identity without making it a novelty. She is tired of being a "Hispanic consumer segment" in someone's marketing deck. She wants a product that just gets it without labeling it.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Current Solution Stack</h5>
+        <p>Venmo (social payments, peer-to-peer), Zelle (rent and formal payments), Apple Pay (in-store), Robinhood (investing, occasional), her parents' Remitly account (when grandmother needs something). She has considered starting a side business selling curated Latin American home goods online but has not found a payment platform that handles both US and international transactions without feeling like an enterprise tool.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Trigger Moment</h5>
+        <p>Sofia sees a Payphone ad on Instagram that is in English but drops a Spanish word naturally &mdash; the way she talks. It does not feel like a translation. It does not feel like pandering. It feels like someone made a financial app for people who live the way she lives. She downloads it out of curiosity. When she sees the interface shift between English and Spanish based on context &mdash; a payment confirmation to her friend in English, a transfer to Bogota with her grandmother's name rendered correctly with the accent marks &mdash; she feels something she has never felt from a fintech app: recognition.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Emotional Conversion Need</h5>
+        <p>Sofia needs to feel seen, not targeted. The difference is everything. Targeting is what banks do when they put a salsa graphic on a checking account ad in February. Being seen is building a product that natively handles the accent mark in her grandmother's name. Payphone's brand must signal cultural fluency, not cultural marketing.</p>
+      </div>
+      <div class="persona-quote">
+        "I do not need a 'Latino fintech.' I need a fintech that was built by people who understand that my life does not fit into one country, one language, or one culture. And I can tell in three seconds if a brand actually gets that or is just performing it."
+      </div>
+    </div>
+  </div>
+
+  <!-- PERSONA 3 -->
+  <div class="persona">
+    <div class="persona-header">
+      <div class="persona-avatar" style="background: linear-gradient(135deg, var(--amarillo), var(--naranja));">RD</div>
+      <div>
+        <div class="persona-name">Roberto Delgado</div>
+        <div class="persona-role">Latino Small Business Owner &bull; 42 &bull; Los Angeles, CA</div>
+      </div>
+    </div>
+    <p><span class="tag tag-green">Archetype: The Builder</span></p>
+    <div class="persona-grid">
+      <div class="persona-section">
+        <h5>Psychology</h5>
+        <p>Roberto owns a landscaping business with a crew of six. He does $18K-25K/month in revenue, mostly from residential contracts in the San Fernando Valley. He moved from Mexico at 19, worked for other crews for a decade, and started his own business five years ago. He is a sophisticated operator who happens to run his business primarily from his phone. He invoices clients via text message. He pays his crew in cash or Zelle. He has a Square reader that he uses maybe twice a month for clients who insist on cards. His accountant is his wife. His CRM is his memory.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Pain Points</h5>
+        <p>Square takes 2.6% + $0.10 per swipe, which costs him $400-650/month. His invoicing process is manual and unprofessional &mdash; he texts a dollar amount and hopes people pay. He cannot easily accept payments from new clients who find him on Instagram. He has no e-commerce presence despite being asked weekly if he sells supplies or offers gift cards for his services. His financial life is split across five platforms, none of which talk to each other.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Current Solution Stack</h5>
+        <p>Chase business checking (required by his accountant), Square (reluctant, for card payments), Zelle (crew payments, some client payments), Venmo (informal, client-initiated), QuickBooks (his wife enters everything manually on Sundays). He has considered upgrading to a proper payment system but every option seems designed for a company with a dedicated finance team, not a guy running six crews from his truck.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Trigger Moment</h5>
+        <p>A client wants to pay for a $3,800 backyard project with a card. Roberto's Square reader is dead (no charge). He is about to lose the immediate payment and chase an invoice. A friend tells him about TAP to Phone &mdash; tap the client's card directly to his phone. No hardware. No dead batteries. He downloads Payphone, onboards in two minutes, and accepts the $3,800 payment on the spot. At zero cost instead of Square's $99.80 processing fee. That single transaction pays for the mental switch. He never opens Square again.</p>
+      </div>
+      <div class="persona-section">
+        <h5>Emotional Conversion Need</h5>
+        <p>Roberto needs to feel like a professional, not a micro-business being managed. He built this company from nothing. He employs people. He pays taxes. He wants a tool that treats him like the $250K/year business he is, not like a side hustle. Payphone's brand must communicate: <em>you built something real. Here are the tools that match.</em></p>
+      </div>
+      <div class="persona-quote">
+        "I pay Square almost $6,000 a year in fees. Six thousand dollars. For what? For a little white box that runs out of battery at the worst possible time? My phone never runs out of battery. Why can I not just use my phone?"
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 04 US BRAND VOICE ADAPTATION -->
+<!-- ============================================================ -->
+<section id="voice" class="section-dark">
+  <div class="section-num">04 &mdash; US Brand Voice Adaptation</div>
+  <h2 class="light">US Brand Voice Adaptation</h2>
+  <p class="lead">Payphone's core voice principles &mdash; Simple, Confident, Brave, Human &mdash; do not change in the US. What changes is the cultural register, the linguistic toolkit, and the specific assumptions about what the reader knows, fears, and desires.</p>
+
+  <h3 style="color: var(--naranja);">What Stays the Same</h3>
+  <div class="card-grid">
+    <div class="card card-dark">
+      <div class="card-label">Constant</div>
+      <h4 style="color: var(--white);">The Four Voice Pillars</h4>
+      <p>Simple, Confident, Brave, Human. These are universal. A Payphone notification should feel the same whether the user is in Quito or Queens. The personality is the brand. It does not adapt to geography &mdash; it transcends it.</p>
+    </div>
+    <div class="card card-dark">
+      <div class="card-label">Constant</div>
+      <h4 style="color: var(--white);">The Explorer Archetype</h4>
+      <p>Payphone is still the Explorer in the US. In fact, the archetype becomes more powerful: in the US context, the Explorer is the immigrant, the builder, the person who crossed an ocean (or a border) to create something new. The archetype now carries lived experience, not just brand metaphor.</p>
+    </div>
+    <div class="card card-dark">
+      <div class="card-label">Constant</div>
+      <h4 style="color: var(--white);">Banned Words</h4>
+      <p>The same ten banned words apply: Disrupt, Empower, Leverage, Seamless, Ecosystem, Synergy, Revolutionize, Best-in-class, Democratize, Cutting-edge. In the US, add three more to the ban list: "Underbanked" (clinicalizes the audience), "Inclusion" (paternalistic), "Community" when used as a substitute for specificity.</p>
+    </div>
+  </div>
+
+  <h3 style="color: var(--naranja);">What Changes for the US</h3>
+
+  <h4 style="color: var(--white);">Bilingual Strategy: The Three Registers</h4>
+  <p>Payphone in the US does not operate in "English" or "Spanish." It operates in three linguistic registers, and the choice of register is determined by context, audience, and intent.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="color: var(--gray-400);">Register</th>
+        <th style="color: var(--gray-400);">When to Use</th>
+        <th style="color: var(--gray-400);">Example</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="color: var(--white); font-weight: 700;">English-Primary</td>
+        <td>Investor materials, US press, App Store listing, LinkedIn, general market ads</td>
+        <td style="color: var(--gray-400);">"Your phone is your entire financial infrastructure."</td>
+      </tr>
+      <tr>
+        <td style="color: var(--white); font-weight: 700;">Spanish-Primary</td>
+        <td>Remittance-focused messaging, first-gen immigrant outreach, WhatsApp/community content, in-app when user language is Spanish</td>
+        <td style="color: var(--gray-400);">"Tu dinero llega al instante. Sin costo. Sin complicaciones."</td>
+      </tr>
+      <tr>
+        <td style="color: var(--white); font-weight: 700;">Code-Switch</td>
+        <td>Social media, brand campaigns targeting bicultural audiences, organic content, Instagram/TikTok</td>
+        <td style="color: var(--gray-400);">"Send money home in seconds. Porque la familia no puede esperar 3-5 business days."</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4 style="color: var(--white);">Code-Switching Rules</h4>
+  <p>Code-switching is the most powerful tool in Payphone's US linguistic arsenal. Done well, it creates instant recognition and cultural intimacy. Done badly, it reads as pandering. These rules prevent the bad version:</p>
+
+  <div class="callout callout-yes" style="background: rgba(34,197,94,0.05);">
+    <div class="callout-label">Rules for Code-Switching</div>
+    <p style="color: var(--gray-400);"><strong>01. The switch must happen where a bilingual person would naturally switch.</strong> This is the non-negotiable rule. If you would not say it that way in a conversation with a bilingual friend, do not write it. Every code-switch should pass the "dinner table test" &mdash; would this sound natural at a family dinner where both languages are spoken?</p>
+    <p style="color: var(--gray-400);"><strong>02. The Spanish portion must carry meaning, not decoration.</strong> Never insert a Spanish word just to signal "we speak Spanish." The Spanish element should deliver the emotional punch, the cultural insight, or the specific reference that English cannot carry as well.</p>
+    <p style="color: var(--gray-400);"><strong>03. Both languages must be grammatically correct in their own right.</strong> Code-switching is not broken English or broken Spanish. It is two correct languages flowing together. Sloppy grammar in either language destroys credibility instantly.</p>
+    <p style="color: var(--gray-400);"><strong>04. Never translate the code-switch.</strong> If you write a line that mixes English and Spanish, do not follow it with a parenthetical translation. The reader either gets it or they are not the target audience for that particular piece. Explaining the switch kills the intimacy that made it powerful.</p>
+    <p style="color: var(--gray-400);"><strong>05. Limit to one switch per unit of copy.</strong> A social post gets one code-switch. A headline gets one. An email gets one or two. More than that reads as a gimmick, not a voice.</p>
+  </div>
+
+  <div class="callout callout-no" style="background: rgba(239,68,68,0.05);">
+    <div class="callout-label">Never Do This</div>
+    <p style="color: var(--gray-400);"><strong>"Hola amigos! Ready to send dinero to your familia? Payphone makes it muy facil!"</strong> &mdash; This is not code-switching. This is a costume. It inserts random Spanish words into English syntax for decoration. A bilingual person would never speak this way. It reads as a brand that Googled "Spanish words for marketing" and scattered them like confetti.</p>
+  </div>
+
+  <h3 style="color: var(--naranja);">Tone by US Context</h3>
+
+  <h4 style="color: var(--white);">Remittance Messaging</h4>
+  <p><strong>Tone: Warm + Direct.</strong> Remittances are not transactions &mdash; they are acts of love with a dollar sign. The tone acknowledges the emotional weight without being sentimental. Lead with the outcome (your family receives money), not the process (our platform transfers funds).</p>
+  <div class="showcase showcase-dark" style="margin-top: 1rem;">
+    <div class="showcase-label">Sample Lines</div>
+    <p class="showcase-body">"Your mother in Guayaquil just received $400. Instantly. At zero cost. That is $600 a year you used to pay in fees &mdash; back in your pocket."</p>
+    <p class="showcase-body">"The money you send home should arrive whole. Not minus 7%. Not in 3-5 business days. Whole and now."</p>
+  </div>
+
+  <h4 style="color: var(--white);">Merchant / Business Messaging</h4>
+  <p><strong>Tone: Professional + Empowering.</strong> Latino business owners in the US are builders. They do not need to be talked down to. Speak to them as operators running real businesses, because they are.</p>
+  <div class="showcase showcase-dark" style="margin-top: 1rem;">
+    <div class="showcase-label">Sample Lines</div>
+    <p class="showcase-body">"You built this business from nothing. Your payment system should match. TAP to Phone: accept cards with the phone already in your hand."</p>
+    <p class="showcase-body">"Square charges you 2.6% on every swipe. On $20K/month, that is $6,240 a year. Payphone charges you zero. Do the math."</p>
+  </div>
+
+  <h4 style="color: var(--white);">Bicultural / Brand Messaging</h4>
+  <p><strong>Tone: Culturally fluent + Sharp.</strong> This is where code-switching lives. The brand shows it understands the audience not by saying so, but by speaking the way they speak.</p>
+  <div class="showcase showcase-dark" style="margin-top: 1rem;">
+    <div class="showcase-label">Sample Lines</div>
+    <p class="showcase-body">"One app for both sides of your life. Send rent to your landlord in English. Send love to your abuela in Spanish. Payphone speaks both."</p>
+    <p class="showcase-body">"Your money crosses borders every month. Your financial app should have been built to do the same."</p>
+  </div>
+
+  <h3 style="color: var(--naranja);">5 Sample US-Market Copy Pieces</h3>
+
+  <div class="showcase showcase-dark" style="margin-top: 1.5rem;">
+    <div class="showcase-label">01 &mdash; Instagram Ad (Code-Switch)</div>
+    <p class="showcase-body" style="font-size: 1.3rem; font-weight: 700; line-height: 1.3;">Send money to your family. Instantly.<br>Porque la distancia ya es suficiente.</p>
+    <p class="showcase-body" style="margin-top: 1rem; font-size: 0.9rem; color: var(--gray-400);">Zero fees. Zero wait. One app for both sides of the border. Payphone.</p>
+  </div>
+
+  <div class="showcase" style="margin-top: 1.5rem;">
+    <div class="showcase-label">02 &mdash; Billboard (English-Primary)</div>
+    <p class="showcase-body" style="font-size: 1.8rem; font-weight: 700; line-height: 1.2; color: var(--dark);">Your money should not<br>cost you money.</p>
+    <p class="showcase-body" style="font-size: 0.9rem; color: var(--gray-600); margin-top: 0.5rem;">Zero-fee payments. Zero-cost remittances. Payphone.</p>
+  </div>
+
+  <div class="showcase showcase-dark" style="margin-top: 1.5rem;">
+    <div class="showcase-label">03 &mdash; Push Notification (Remittance Received)</div>
+    <p class="showcase-body"><strong>Maria in Quito just received your $350.</strong> Instantly. No fee. That is how it should always work.</p>
+  </div>
+
+  <div class="showcase" style="margin-top: 1.5rem;">
+    <div class="showcase-label">04 &mdash; App Store Subtitle</div>
+    <p class="showcase-body" style="font-size: 1.1rem; font-weight: 700; color: var(--dark);">Pay. Get paid. Send money home. One app. Zero fees.</p>
+  </div>
+
+  <div class="showcase showcase-dark" style="margin-top: 1.5rem;">
+    <div class="showcase-label">05 &mdash; Community Event Banner (Houston)</div>
+    <p class="showcase-body" style="font-size: 1.5rem; font-weight: 700; line-height: 1.3;">Built in the middle of the world.<br>Made for the streets of Houston.</p>
+    <p class="showcase-body" style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--gray-400);">Payphone &mdash; la app financiera que entiende de donde vienes.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 05 US VISUAL IDENTITY ADAPTATIONS -->
+<!-- ============================================================ -->
+<section id="visual">
+  <div class="section-num">05 &mdash; US Visual Identity Adaptations</div>
+  <h2>US Visual Identity Adaptations</h2>
+  <p class="lead">Payphone's visual identity was built to scale globally. The color system, typography, logo, and design principles do not change for the US. What adapts is the imagery, the cultural context of the visuals, and the competitive visual environment the brand must differentiate within.</p>
+
+  <h3>What Stays the Same (Non-Negotiable)</h3>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-label">Sacred</div>
+      <h4>The Color System</h4>
+      <p>Naranja Payphone (#FF6400), Violeta (#5A00B4), Amarillo (#FFA000), Oscuro (#222222), Blanco (#FFFFFF). All gradients (Sunset, Electric, Dawn). These are the DNA. They do not localize. An orange Payphone screen in Houston must be the same orange as in Quito. Brand recognition depends on this consistency across markets.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Sacred</div>
+      <h4>The Whale Tail Logo</h4>
+      <p>Same mark, same rules, same clear zones, same color applications. The whale tail does not need a US adaptation &mdash; whales cross oceans. That is the metaphor. If anything, the logo becomes more resonant in the US context: a brand that migrated from Latin America, just like its users.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Sacred</div>
+      <h4>Typography: Aeonik</h4>
+      <p>Same typeface, same weights, same scale, same spacing rules. Aeonik reads well in both English and Spanish without special character rendering issues. Its geometric warmth translates across languages and cultural contexts.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Sacred</div>
+      <h4>Design Principles</h4>
+      <p>Premium minimalism, generous white space, three-size-maximum typography rule, warm color grading, sentence case headlines. These are brand constants. The US team does not get to add drop shadows or gradients-on-text because "the US market expects it." The brand's restraint is its competitive advantage in a market full of visual noise.</p>
+    </div>
+  </div>
+
+  <h3>What Adapts for the US</h3>
+
+  <h4>Imagery: US-Specific Contexts</h4>
+  <p>The three-word image filter (Authentic, Dynamic, Warm) remains. But the subjects and settings shift to reflect the US audience and geography. Every image must still pass the filter &mdash; no exceptions for market adaptation.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>City / Region</th>
+        <th>Visual Territory</th>
+        <th>Why It Matters</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="font-weight: 700;">Miami, FL</td>
+        <td>Brickell skyline, Calle Ocho murals, food trucks on Eighth Street, ocean views with urban edge, Art Deco meets Latin energy</td>
+        <td>Miami is Payphone's spiritual US home. It is the bridge city between the US and LATAM. Imagery here should feel like the brand already belongs.</td>
+      </tr>
+      <tr>
+        <td style="font-weight: 700;">Houston, TX</td>
+        <td>Taqueria storefronts, construction crews at golden hour, weekend flea markets, family-owned auto shops, suburban strip malls with Spanish-language signs</td>
+        <td>Houston is the working-class engine of US Latino commerce. Imagery here should feel real, hardworking, and warm &mdash; not aspirational, but lived.</td>
+      </tr>
+      <tr>
+        <td style="font-weight: 700;">Los Angeles, CA</td>
+        <td>East LA street art, food vendors on Broadway, palm trees at sunset with urban grit, landscaping crews in the Valley, Boyle Heights street life</td>
+        <td>LA represents the established Latino-American identity &mdash; multiple generations deep, culturally confident, entrepreneurially prolific.</td>
+      </tr>
+      <tr>
+        <td style="font-weight: 700;">New York, NY</td>
+        <td>Jackson Heights storefronts, bodegas at night, subway platform diversity, Washington Heights apartment life, Bronx small businesses</td>
+        <td>New York represents the density and diversity of the Latino-American experience &mdash; every country, every generation, compressed into city blocks.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>US Photography Subjects (Priority Order)</h4>
+  <ol>
+    <li><strong>Hands with phones in real US Latino business environments</strong> &mdash; taqueria counters, market stalls, service vans, salon chairs. The TAP to Phone moment is the hero shot for US merchant marketing.</li>
+    <li><strong>Cross-border moments</strong> &mdash; video calls with family abroad while a Payphone notification confirms the transfer. The emotional bridge between two lives in one frame.</li>
+    <li><strong>US-LATAM visual parallels</strong> &mdash; split-screen or diptych imagery showing a vendor in Quito and a vendor in Houston, both using Payphone. Same app, two worlds, one platform.</li>
+    <li><strong>Everyday financial moments in context</strong> &mdash; splitting a dinner check, paying a landscaper, a food truck accepting a tap. Never staged. Always environmental.</li>
+    <li><strong>The American Dream reimagined</strong> &mdash; not the cliche (white picket fence) but the real one: a woman accepting her first card payment at her own business, a father checking his phone after a successful remittance, a couple reviewing their combined finances in one app.</li>
+  </ol>
+
+  <h3>Competitive Visual Differentiation</h3>
+  <p>In the US fintech visual landscape, the competition looks like this:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Competitor</th>
+        <th>Visual Identity</th>
+        <th>Payphone's Counter-Move</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="font-weight: 700;">Venmo</td>
+        <td>Cool blue, minimal, social-feed aesthetic, illustrated characters, millennial-white-coded</td>
+        <td>Warm orange, real photography, culturally specific imagery. Where Venmo is cool, Payphone is warm. Where Venmo is illustrated, Payphone is photographic and real.</td>
+      </tr>
+      <tr>
+        <td style="font-weight: 700;">Cash App</td>
+        <td>Lime green, streetwear-influenced, bold typography, Gen-Z coded, aggressive visual energy</td>
+        <td>Refined confidence vs. aggressive energy. Payphone's visual restraint (dark backgrounds, orange accents, clean type) reads as mature and trustworthy against Cash App's visual loudness.</td>
+      </tr>
+      <tr>
+        <td style="font-weight: 700;">Remitly</td>
+        <td>Blue/teal, stock photography of smiling families, generic "sending money" visuals, conservative and functional</td>
+        <td>Every Remitly ad looks like a stock photo search for "Hispanic family smiling." Payphone uses real people in real places. The visual honesty gap is Payphone's opening.</td>
+      </tr>
+      <tr>
+        <td style="font-weight: 700;">Western Union</td>
+        <td>Yellow/black, legacy brand, physical-location-focused, corporate and dated</td>
+        <td>Western Union looks like the 20th century. Payphone looks like the future that already arrived. The generational gap in visual language is immediate and visceral.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout callout-tip">
+    <div class="callout-label">Visual Positioning Summary</div>
+    <p>Payphone's visual identity in the US occupies a unique position: <strong>warmer than Venmo, more refined than Cash App, more authentic than Remitly, more modern than Western Union.</strong> No other fintech in the US Hispanic market combines Payphone's warm-but-premium aesthetic with real photography and dark-mode sophistication. The orange owns the space between "friendly" and "serious" &mdash; exactly where trust is built.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 06 US GO-TO-MARKET BRAND STRATEGY -->
+<!-- ============================================================ -->
+<section id="gtm" class="section-accent">
+  <div class="section-num">06 &mdash; US Go-to-Market Brand Strategy</div>
+  <h2>US Go-to-Market<br>Brand Strategy</h2>
+  <p class="lead">The brand enters the US not with a launch event but with a movement. The strategy is built on the principle that Payphone's best marketing asset is the story it already has: 2 million users, built in the middle of the world, now crossing the border just like its audience did.</p>
+
+  <h3>The Launch Narrative</h3>
+  <div class="declaration">
+    "We did not build Payphone in Silicon Valley and bring it to Latin America. We built it in the middle of the world &mdash; Ecuador, la Mitad del Mundo &mdash; where a vendor losing a sale because she could not accept a card was not a market research finding but something we saw every morning on the way to the office. Two million people later, we are bringing it to the United States. Not because the US needs another fintech. Because 63 million Hispanic Americans deserve a financial platform that was built by people who understand what it means to manage money across two countries, two languages, and two lives."
+  </div>
+  <p>This narrative does three things simultaneously: it establishes credibility (2M users), it creates emotional resonance (built where you come from), and it differentiates structurally (this is not a Silicon Valley product adapted for Hispanics &mdash; it is a LATAM product that naturally expands to the US Hispanic market).</p>
+
+  <h3>PR Angle: The Reverse Migration Story</h3>
+  <p>Every LATAM fintech story in US media follows the same arc: "US-backed fintech expands to Latin America." Payphone's story is the opposite, and that inversion is the PR hook.</p>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-label">Headline Angle 01</div>
+      <h4>The LATAM Fintech That Came North</h4>
+      <p>"While US fintechs are racing to 'expand to LATAM,' this Ecuadorian fintech with 2M users is doing the reverse &mdash; entering the US to serve the 63M Hispanic Americans that Venmo and Cash App never built for." This angle pitches to TechCrunch, The Information, Bloomberg Linea, Rest of World.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Headline Angle 02</div>
+      <h4>The $68 Billion Fee Nobody Talks About</h4>
+      <p>"Hispanic Americans pay $4-5 billion per year in remittance fees alone &mdash; a tax on family love. This fintech plans to make it zero." This angle pitches to consumer press: CNBC, Forbes, NPR's Latino USA, the Wall Street Journal's personal finance section.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Headline Angle 03</div>
+      <h4>TAP to Phone Is About to Kill the POS Terminal</h4>
+      <p>"4.7 million Latino-owned businesses in the US. Most of them pay processing fees they cannot afford, on hardware they do not need. One fintech just made the terminal extinct." This angle pitches to payments press: PYMNTS, The Fintech Times, Payments Dive, American Banker.</p>
+    </div>
+  </div>
+
+  <h3>Influencer and Community Strategy</h3>
+  <p>Payphone does not buy influencers. It recruits cultural allies &mdash; people whose authentic lives demonstrate Payphone's value without a script.</p>
+
+  <h4>Tier 1: Founder-Led Content (Juan Diego / Juanjo)</h4>
+  <p>Juan Diego's personal brand is the primary distribution channel for the US launch narrative. The focus shifts from LATAM fintech thought leadership to the US expansion story &mdash; a founder who built for 2M users in Ecuador, now building for 63M in the US. Platform: LinkedIn (primary), X (secondary), podcast guest circuit.</p>
+
+  <h4>Tier 2: Cultural Amplifiers (10-15 Voices)</h4>
+  <p>Not influencers &mdash; amplifiers. These are real people with engaged audiences in the US Latino space who can speak to Payphone's value from personal experience.</p>
+  <ul>
+    <li><strong>Latino small business owners on Instagram/TikTok</strong> (50K-500K followers) who document their daily operations &mdash; food trucks, salons, service businesses. Payphone provides TAP to Phone and they show it in real use, not in a sponsored post format.</li>
+    <li><strong>Bicultural finance creators</strong> who discuss money management for first-gen and second-gen audiences. They integrate Payphone into their existing content about remittances, saving, and building wealth across borders.</li>
+    <li><strong>LATAM-to-US migration storytellers</strong> &mdash; podcasters, writers, and creators who document the immigrant experience. Payphone sponsors their content (not their endorsement) and earns association through proximity to authentic stories.</li>
+  </ul>
+
+  <h4>Tier 3: Community Seeding (Ground Game)</h4>
+  <ul>
+    <li><strong>Churches and community centers</strong> in Houston, LA, Miami, and NYC &mdash; Payphone provides free financial literacy workshops focused on remittance savings and digital payment adoption. Not branded events. Useful events where the brand earns trust by delivering value first.</li>
+    <li><strong>Latino business associations</strong> (USHCC, local chambers) &mdash; partnership to offer Payphone TAP to Phone as a member benefit. The association gets a value-add for members; Payphone gets distribution through a trusted intermediary.</li>
+    <li><strong>Soccer/futbol sponsorship</strong> &mdash; not MLS (too expensive, too broad). Local and semi-pro Latino soccer leagues in target cities. Payphone sponsors match-day payments (concessions accept TAP to Phone), jersey patches for select teams, and halftime activations. This is where the community gathers. This is where the brand shows up.</li>
+  </ul>
+
+  <h3>US Social Media Strategy</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Platform</th>
+        <th>Role</th>
+        <th>Language Register</th>
+        <th>Content Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="font-weight: 700;">Instagram</td>
+        <td>Brand storytelling + merchant showcases</td>
+        <td>Code-switch + English</td>
+        <td>Real merchant stories, TAP to Phone demos, lifestyle-meets-finance, carousel explainers on remittance savings</td>
+      </tr>
+      <tr>
+        <td style="font-weight: 700;">TikTok</td>
+        <td>Cultural relevance + product education</td>
+        <td>Code-switch + Spanish</td>
+        <td>Relatable money moments (abuela reactions to instant transfers), merchant origin stories, "how much you're losing in fees" math videos</td>
+      </tr>
+      <tr>
+        <td style="font-weight: 700;">LinkedIn</td>
+        <td>Investor narrative + founder brand</td>
+        <td>English-primary</td>
+        <td>Juan Diego's thought leadership, company milestones, the "LATAM fintech entering US" story, partnership announcements</td>
+      </tr>
+      <tr>
+        <td style="font-weight: 700;">YouTube</td>
+        <td>Long-form education + trust building</td>
+        <td>Bilingual (separate tracks)</td>
+        <td>Product walkthroughs, merchant testimonials (documentary style), "How to save $600/year on remittances" guides</td>
+      </tr>
+      <tr>
+        <td style="font-weight: 700;">WhatsApp</td>
+        <td>Community + word-of-mouth</td>
+        <td>Spanish-primary</td>
+        <td>Broadcast lists for product updates, community groups for early adopters in each city, referral program communications</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Partnership Strategy</h3>
+  <div class="card-grid">
+    <div class="card">
+      <div class="card-label">Partnership 01</div>
+      <h4>Latino Business Associations</h4>
+      <p>United States Hispanic Chamber of Commerce (USHCC), local Hispanic chambers in Houston, LA, Miami, NYC. Payphone becomes the official payment platform partner. Members get priority onboarding, dedicated support in Spanish, and TAP to Phone hardware-free acceptance. Payphone gets distribution, credibility, and a warm introduction to 4.7M Latino business owners.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Partnership 02</div>
+      <h4>Soccer / Futbol Ecosystem</h4>
+      <p>Liga MX viewing events, local semi-pro leagues, youth soccer programs. Payment infrastructure at events (all concessions use TAP to Phone), jersey sponsorships, in-venue QR codes for onboarding. Soccer is not just a sport for this audience &mdash; it is the cultural gathering point. Payphone shows up where the community shows up.</p>
+    </div>
+    <div class="card">
+      <div class="card-label">Partnership 03</div>
+      <h4>Cultural Events</h4>
+      <p>Dia de los Muertos festivals, Cinco de Mayo celebrations, Carnaval, and local food festivals in target cities. Payphone does not sponsor with banners &mdash; it sponsors with utility. Every vendor at the event can accept payments through Payphone. The brand becomes the infrastructure of the celebration, not a logo on a fence.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 07 INVESTOR NARRATIVE - US EDITION -->
+<!-- ============================================================ -->
+<section id="investor" class="section-dark">
+  <div class="section-num">07 &mdash; Investor Narrative &mdash; US Edition</div>
+  <h2 class="light">Investor Narrative<br>US Edition</h2>
+  <p class="lead">The US expansion narrative is not a new story. It is the next chapter of the same story: a company that built the financial autonomy layer for LATAM's mobile-first population is now completing the circuit by entering the largest economy in the world &mdash; through its largest underserved demographic.</p>
+
+  <h3 style="color: var(--naranja);">The 2-Minute Story for US VCs</h3>
+  <div class="showcase showcase-dark" style="padding: 3rem;">
+    <div class="showcase-label">Pitch Narrative &mdash; Delivered by Juan Diego, Founder</div>
+    <p class="showcase-body" style="font-size: 1.05rem; line-height: 1.9;">
+      "Sixty-three million Hispanic Americans contribute $2.8 trillion to the US economy. They send $68 billion home to Latin America every year. They start businesses at twice the national rate. And the best financial product the industry has offered them is a Spanish translation of Venmo.
+      <br><br>
+      We built Payphone in Ecuador &mdash; in the streets, for the streets. Two million people use it today to pay, get paid, accept cards using only their phone, and run their businesses. Zero cost. No bank required. No hardware. We did not build this from a Stanford dorm room and then try to figure out Latin America. We built it where the need was sharpest and the infrastructure was thinnest.
+      <br><br>
+      Now here is the insight that changes everything: the person sending money from Houston to Quito is the same demographic as the person receiving it. They have the same financial anxieties, the same institutional distrust, the same need for a platform that does not treat them as an afterthought. And we already serve one side of that equation.
+      <br><br>
+      Payphone enters the US not as a startup &mdash; but as a proven platform completing the circuit. We own the destination. Now we are meeting the sender where they live. Remittance corridors are the entry wedge. The full financial stack is the destination. One app for both sides of the border, both languages, and both lives.
+      <br><br>
+      We are raising our next round to fund US market entry. The TAM is $2.8 trillion. The competition is a Spanish toggle on an English app. And we have something no US fintech can replicate: two million users already waiting on the other end."
+    </p>
+  </div>
+
+  <h3 style="color: var(--naranja);">LATAM Proof Points That Translate to US Credibility</h3>
+  <div class="card-grid">
+    <div class="card card-dark">
+      <div class="card-label">Proof Point 01</div>
+      <h4 style="color: var(--white);">2M+ Users, Capital-Efficient</h4>
+      <p>Built a 2M-user base in markets where CAC is brutally competitive (Deuna with Banco Pichincha's backing has 5.5M but burns 0% commission). Payphone's growth was organic and word-of-mouth-driven &mdash; the exact model that translates to the trust-based US Hispanic market.</p>
+    </div>
+    <div class="card card-dark">
+      <div class="card-label">Proof Point 02</div>
+      <h4 style="color: var(--white);">TAP to Phone: Category Pioneer</h4>
+      <p>First mover on CPoC (Consumer Presented on Commercial off-the-shelf) in Latin America. This technology is nascent in the US market. Payphone enters with production-grade experience while US competitors are still in pilot.</p>
+    </div>
+    <div class="card card-dark">
+      <div class="card-label">Proof Point 03</div>
+      <h4 style="color: var(--white);">Zero-Cost Model: Proven Unit Economics</h4>
+      <p>The zero-cost-to-consumer model is not a subsidy &mdash; it is structural. Merchant services revenue at healthy margins sustains the economics. This has been validated across years of operation, not assumed in a spreadsheet.</p>
+    </div>
+    <div class="card card-dark">
+      <div class="card-label">Proof Point 04</div>
+      <h4 style="color: var(--white);">Monolithic Architecture: One App, Everything</h4>
+      <p>P2P, payment links, TAP to Phone, e-commerce, card issuance, merchant dashboard &mdash; all in one app. In the US, this competes with a stack of 4-5 separate products that most small merchants juggle. Consolidation is the value prop, and the architecture already exists.</p>
+    </div>
+  </div>
+
+  <h3 style="color: var(--naranja);">TAM / SAM / SOM</h3>
+  <div class="stat-grid">
+    <div class="stat-card" style="background: rgba(255,100,0,0.06); border: 1px solid rgba(255,100,0,0.12);">
+      <div class="stat-number" style="color: var(--naranja); font-size: 2rem;">$2.8T</div>
+      <div class="stat-label" style="color: var(--gray-400);">TAM &mdash; Total US Hispanic GDP</div>
+    </div>
+    <div class="stat-card" style="background: rgba(90,0,180,0.06); border: 1px solid rgba(90,0,180,0.12);">
+      <div class="stat-number" style="color: var(--violeta); font-size: 2rem;">$180B</div>
+      <div class="stat-label" style="color: var(--gray-400);">SAM &mdash; Remittances + Latino SMB payments + P2P</div>
+    </div>
+    <div class="stat-card" style="background: rgba(255,160,0,0.06); border: 1px solid rgba(255,160,0,0.12);">
+      <div class="stat-number" style="color: var(--amarillo); font-size: 2rem;">$2.4B</div>
+      <div class="stat-label" style="color: var(--gray-400);">SOM &mdash; Year 3 target: 500K users, avg $400/mo volume</div>
+    </div>
+  </div>
+
+  <h3 style="color: var(--naranja);">Competitive Moat (US-Specific)</h3>
+  <ol style="color: var(--gray-400);">
+    <li><strong>Destination ownership.</strong> Payphone already has 2M+ users on the receiving end of cross-border flows. No US-born fintech has this. It takes years to build. We already built it.</li>
+    <li><strong>Cultural authenticity at the code level.</strong> The product was built in Spanish first, by a LATAM team, for LATAM users. Bilingual UX is not a feature &mdash; it is the foundation. Competitors would need to rebuild from the database layer to match this.</li>
+    <li><strong>TAP to Phone production experience.</strong> While US competitors are running NFC pilots, Payphone has production data from thousands of merchants. The learning curve advantage is measured in years, not months.</li>
+    <li><strong>Trust network effects.</strong> In the US Hispanic market, trust transfers through family and community networks. When a user in Houston onboards because their family in Quito already uses Payphone, the CAC is effectively zero and the trust barrier is already cleared.</li>
+  </ol>
+
+  <h3 style="color: var(--naranja);">Why Now: Three Convergences</h3>
+  <div class="card-grid">
+    <div class="card card-dark">
+      <div class="card-label">Convergence 01</div>
+      <h4 style="color: var(--white);">Regulatory Window</h4>
+      <p>US open banking rules and state-level MTL modernization create the widest entry window for new fintechs serving underserved demographics in a decade. The regulatory posture is "more competition, more access." Payphone enters at peak opportunity.</p>
+    </div>
+    <div class="card card-dark">
+      <div class="card-label">Convergence 02</div>
+      <h4 style="color: var(--white);">NFC Ubiquity</h4>
+      <p>iPhone NFC was locked until iOS 15.4 (March 2022). Android NFC has been open. As of 2026, 85%+ of smartphones in circulation support tap-to-pay. The hardware barrier that would have killed TAP to Phone three years ago no longer exists. The timing is structural.</p>
+    </div>
+    <div class="card card-dark">
+      <div class="card-label">Convergence 03</div>
+      <h4 style="color: var(--white);">Cultural Market Readiness</h4>
+      <p>The US Hispanic market's purchasing power crossed $2.5T in 2023 and is growing at 2.5x the general market rate. Mainstream brands are spending billions on Hispanic marketing &mdash; but no fintech has built for this audience as a primary customer, not an addendum. The demand exists. The product does not. Until now.</p>
+    </div>
+  </div>
+
+  <h3 style="color: var(--naranja);">10-Slide Investor Narrative Arc</h3>
+  <table>
+    <thead>
+      <tr>
+        <th style="color: var(--gray-400);">Slide</th>
+        <th style="color: var(--gray-400);">Title</th>
+        <th style="color: var(--gray-400);">Core Message</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="color: var(--naranja); font-weight: 700;">01</td>
+        <td style="color: var(--white);">The Invisible Economy</td>
+        <td>63M Hispanic Americans, $2.8T GDP, zero purpose-built financial platform.</td>
+      </tr>
+      <tr>
+        <td style="color: var(--naranja); font-weight: 700;">02</td>
+        <td style="color: var(--white);">The Product Gap</td>
+        <td>Venmo translated vs. remittance pipes. Neither serves the full life. Show the stack gap visually.</td>
+      </tr>
+      <tr>
+        <td style="color: var(--naranja); font-weight: 700;">03</td>
+        <td style="color: var(--white);">Payphone: One App, Both Worlds</td>
+        <td>Product demo: P2P, TAP to Phone, remittances, cards, merchant tools. One app. Zero cost.</td>
+      </tr>
+      <tr>
+        <td style="color: var(--naranja); font-weight: 700;">04</td>
+        <td style="color: var(--white);">The LATAM Proof</td>
+        <td>2M+ users. Traction metrics. Unit economics. This is not a concept &mdash; it is a machine.</td>
+      </tr>
+      <tr>
+        <td style="color: var(--naranja); font-weight: 700;">05</td>
+        <td style="color: var(--white);">The Cross-Border Moat</td>
+        <td>We own the destination. The sender in Houston and the receiver in Quito both use Payphone. No competitor can replicate this.</td>
+      </tr>
+      <tr>
+        <td style="color: var(--naranja); font-weight: 700;">06</td>
+        <td style="color: var(--white);">US Go-to-Market</td>
+        <td>Remittance corridor as entry wedge. City-by-city rollout. Community-first distribution. CAC model.</td>
+      </tr>
+      <tr>
+        <td style="color: var(--naranja); font-weight: 700;">07</td>
+        <td style="color: var(--white);">TAM / SAM / SOM</td>
+        <td>$2.8T / $180B / $2.4B Year 3. Conservative assumptions, validated by LATAM conversion rates.</td>
+      </tr>
+      <tr>
+        <td style="color: var(--naranja); font-weight: 700;">08</td>
+        <td style="color: var(--white);">Competitive Landscape</td>
+        <td>The map showing the empty quadrant. Bilingual-native + full stack + cross-border = nobody.</td>
+      </tr>
+      <tr>
+        <td style="color: var(--naranja); font-weight: 700;">09</td>
+        <td style="color: var(--white);">Team</td>
+        <td>Built by LATAM operators who understand the market because they are from the market.</td>
+      </tr>
+      <tr>
+        <td style="color: var(--naranja); font-weight: 700;">10</td>
+        <td style="color: var(--white);">The Ask</td>
+        <td>Round size, use of funds, milestones. End with: "We already built the product. We already proved the model. Now we complete the circuit."</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============================================================ -->
+<!-- 08 US COPY SHOWCASE -->
+<!-- ============================================================ -->
+<section id="copy">
+  <div class="section-num">08 &mdash; US Copy Showcase</div>
+  <h2>US Copy Showcase</h2>
+  <p class="lead">Ten pieces of final copy, ready to deploy in the US market. Not drafts. Not concepts. These are the actual words that launch Payphone in America. Each one demonstrates how the brand voice, bilingual strategy, and positioning framework translate into real communications.</p>
+
+  <!-- PIECE 1: App Store Listing -->
+  <div class="showcase showcase-dark" style="padding: 3rem;">
+    <div class="showcase-label">01 &mdash; US App Store Listing</div>
+    <p class="showcase-body" style="font-size: 1.6rem; font-weight: 700; line-height: 1.2; margin-bottom: 0.5rem;">Payphone &mdash; Pay, Get Paid, Send Home</p>
+    <p class="showcase-body" style="font-size: 1rem; color: var(--gray-400); margin-bottom: 1.5rem;">Zero-Fee Payments &amp; Remittances</p>
+    <p class="showcase-body">Your phone is your entire financial infrastructure. Pay friends. Accept card payments at your business. Send money to your family in Latin America &mdash; instantly, at zero cost.</p>
+    <p class="showcase-body" style="margin-top: 1rem;">Payphone is not another payment app. It is the only platform built from the ground up for people who manage money across two countries, two languages, and two lives.</p>
+    <p class="showcase-body" style="margin-top: 1rem; font-weight: 600;">What you can do with Payphone:</p>
+    <p class="showcase-body">
+      &bull; Send and receive money instantly &mdash; zero fees, always<br>
+      &bull; Accept card payments at your business using TAP to Phone &mdash; no terminal, no hardware, no contract<br>
+      &bull; Send remittances to family in Ecuador, Guatemala, El Salvador, and more &mdash; they receive it in seconds, not days<br>
+      &bull; Generate payment links &mdash; share via WhatsApp, text, email, or social media<br>
+      &bull; Get a Payphone card &mdash; spend anywhere Mastercard is accepted<br>
+      &bull; Manage your business &mdash; track sales, generate reports, all from one dashboard
+    </p>
+    <p class="showcase-body" style="margin-top: 1rem; font-weight: 600;">Already trusted by 2M+ users across the Americas.</p>
+    <p class="showcase-body" style="margin-top: 0.5rem; color: var(--gray-400);">Available in English and Spanish. Built bilingual from day one &mdash; not translated.</p>
+  </div>
+
+  <!-- PIECE 2: US Site Hero -->
+  <div class="showcase" style="text-align: center; padding: 4rem; margin-top: 3rem;">
+    <div class="showcase-label">02 &mdash; US Website Hero Headline + Subheadline</div>
+    <div class="showcase-hero" style="font-size: 3.2rem; max-width: 650px; margin: 0 auto 1rem;">One app for<br>both sides of<br>the border.</div>
+    <p class="showcase-sub" style="max-width: 500px; margin: 0 auto;">Pay, get paid, send money home, accept cards, run your business &mdash; all from your phone, at zero cost. Already trusted by 2 million people across the Americas.</p>
+    <p style="margin-top: 2rem; font-size: 0.85rem; color: var(--gray-400);">[Get the app] &nbsp;&nbsp; [See how it works]</p>
+  </div>
+
+  <!-- PIECE 3: LinkedIn US Launch Post -->
+  <div class="showcase showcase-dark" style="margin-top: 3rem;">
+    <div class="showcase-label">03 &mdash; LinkedIn US Launch Post (Juanjo's POV)</div>
+    <p class="showcase-body" style="white-space: pre-line;">Today we are announcing something we have been building toward for years: Payphone is launching in the United States.
+
+But let me tell you what this is not.
+
+This is not a Silicon Valley fintech "expanding to serve Hispanics." We are not a team of Stanford MBAs who discovered that 63 million people speak Spanish and decided to build an app.
+
+We built Payphone in the middle of the world &mdash; Ecuador, the equator, la Mitad del Mundo. For vendors who lost sales because they could not accept a card. For people who wanted to send money without losing 7% to a fee. For businesses that needed a payment system that did not require a bank contract, a POS terminal, or a 30-page application.
+
+Two million people use Payphone today. Not because we had a big marketing budget. Because the product worked.
+
+Now here is what most people miss about the US opportunity:
+
+The person sending $400 from Houston to their family in Quito every two weeks? Their family in Quito is probably already a Payphone user.
+
+We own the destination. We built the trust. And we know from experience &mdash; not from market research &mdash; what it means to manage money across borders, languages, and lives.
+
+The US has the world's largest economy and no financial platform purpose-built for its fastest-growing demographic. That changes today.
+
+If you invest in fintech, if you serve the US Hispanic market, or if you have ever paid $12 to send your own money to your own family &mdash; I would love to talk.
+
+#fintech #payments #hispanicmarket #latam</p>
+  </div>
+
+  <!-- PIECE 4: US Investor Cold Email -->
+  <div class="showcase" style="margin-top: 3rem;">
+    <div class="showcase-label">04 &mdash; US Investor Cold Email</div>
+    <p class="showcase-body"><strong>Subject: 63M Americans, $2.8T GDP, zero purpose-built fintech</strong></p>
+    <br>
+    <p class="showcase-body">Hi [Name],</p>
+    <p class="showcase-body">I am Juan Diego, founder of Payphone. We are the financial autonomy platform for Latin America &mdash; 2M+ users, zero-cost model, TAP to Phone merchant acceptance &mdash; and we are entering the US market to serve the 63 million Hispanic Americans that Venmo, Cash App, and Zelle were never built for.</p>
+    <p class="showcase-body">The thesis in one sentence: the person sending $400 from Houston to Quito every month is the same demographic as the person receiving it &mdash; and we already serve 2 million people on the receiving end.</p>
+    <p class="showcase-body">Three things that make this structurally different from "neobank for Hispanics":</p>
+    <p class="showcase-body">1. <strong>Cross-border by architecture, not by feature.</strong> Remittances, P2P, merchant acceptance, and cards in one app &mdash; built for people whose money exists in two countries simultaneously.</p>
+    <p class="showcase-body">2. <strong>Destination ownership.</strong> Our 2M+ users in LATAM are on the receiving end of US remittance corridors. This creates a viral acquisition loop no US-born fintech can replicate: the family member abroad refers the family member here.</p>
+    <p class="showcase-body">3. <strong>TAP to Phone for 4.7M Latino SMBs.</strong> We are the only platform offering zero-cost, hardware-free card acceptance to the fastest-growing business demographic in America.</p>
+    <p class="showcase-body">We are raising [round size] to fund US market entry. Happy to walk you through the model, the LATAM proof points, and why we believe this is a category-creating moment.</p>
+    <p class="showcase-body">Worth 20 minutes?</p>
+    <p class="showcase-body">Juan Diego<br>Founder, Payphone | Unicore LLC<br>payphone.com</p>
+  </div>
+
+  <!-- PIECE 5: Press Release -->
+  <div class="showcase showcase-dark" style="margin-top: 3rem;">
+    <div class="showcase-label">05 &mdash; Press Release Headline + Opening</div>
+    <p class="showcase-body" style="font-size: 1.4rem; font-weight: 700; line-height: 1.3; margin-bottom: 1.5rem;">Payphone, the LATAM Fintech With 2M+ Users, Enters the United States to Serve the $2.8 Trillion Hispanic Economy</p>
+    <p class="showcase-body"><em>The Ecuadorian-born financial platform launches with zero-fee P2P payments, instant remittances to Latin America, and TAP to Phone merchant acceptance &mdash; targeting 63 million Hispanic Americans underserved by English-first fintechs.</em></p>
+    <p class="showcase-body" style="margin-top: 1rem;"><strong>Miami, FL &mdash; [Date] &mdash;</strong> Payphone, the financial autonomy platform serving over 2 million users across Ecuador and Central America, today announced its expansion into the United States, targeting the 63 million Hispanic and Latino Americans who contribute $2.8 trillion annually to the US economy. The platform enters the market with zero-fee person-to-person payments, instant zero-cost remittances to Latin America, TAP to Phone merchant card acceptance, and bilingual-native UX &mdash; a product combination no existing US fintech offers.</p>
+    <p class="showcase-body" style="margin-top: 1rem;">"Every major fintech in the US was built in English and translated to Spanish as an afterthought," said Juan Diego, founder and CTO of Payphone. "We built the product in Latin America, in Spanish, for a population that manages money across borders every single day. Entering the US is not an expansion &mdash; it is a completion. We are meeting our users' families where they live."</p>
+  </div>
+
+  <!-- PIECE 6: Facebook/Instagram Ads -->
+  <div class="showcase" style="margin-top: 3rem;">
+    <div class="showcase-label">06 &mdash; Facebook/Instagram Ad Variations (3)</div>
+
+    <div style="background: var(--dark); border-radius: 12px; padding: 2rem; margin-bottom: 1.5rem; color: var(--white);">
+      <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--naranja); margin-bottom: 0.75rem; font-weight: 600;">Variation A &mdash; Remittance (English-Primary)</p>
+      <p style="font-size: 1.3rem; font-weight: 700; line-height: 1.25; color: var(--white); margin-bottom: 0.75rem;">You paid $12 to send your own money to your own family.</p>
+      <p style="font-size: 0.9rem; color: var(--gray-400);">Payphone sends it for free. Instantly. No catch. No promo rate. That is the model.</p>
+      <p style="font-size: 0.8rem; color: var(--naranja); margin-top: 1rem; font-weight: 600;">Download Payphone &rarr;</p>
+    </div>
+
+    <div style="background: var(--dark); border-radius: 12px; padding: 2rem; margin-bottom: 1.5rem; color: var(--white);">
+      <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--naranja); margin-bottom: 0.75rem; font-weight: 600;">Variation B &mdash; Merchant (Code-Switch)</p>
+      <p style="font-size: 1.3rem; font-weight: 700; line-height: 1.25; color: var(--white); margin-bottom: 0.75rem;">Your phone is a card terminal. No hardware. No fee.<br><span style="color: var(--amarillo);">Tu negocio merece algo mejor que Square.</span></p>
+      <p style="font-size: 0.9rem; color: var(--gray-400);">TAP to Phone by Payphone. Accept cards with the phone already in your hand.</p>
+      <p style="font-size: 0.8rem; color: var(--naranja); margin-top: 1rem; font-weight: 600;">Try TAP to Phone free &rarr;</p>
+    </div>
+
+    <div style="background: var(--dark); border-radius: 12px; padding: 2rem; color: var(--white);">
+      <p style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--naranja); margin-bottom: 0.75rem; font-weight: 600;">Variation C &mdash; Bicultural (Code-Switch)</p>
+      <p style="font-size: 1.3rem; font-weight: 700; line-height: 1.25; color: var(--white); margin-bottom: 0.75rem;">One app for your life here.<br>One app for your family there.</p>
+      <p style="font-size: 0.9rem; color: var(--gray-400);">Pay rent in English. Send love in Spanish. Payphone speaks both. Zero fees on everything.</p>
+      <p style="font-size: 0.8rem; color: var(--naranja); margin-top: 1rem; font-weight: 600;">Get Payphone &rarr;</p>
+    </div>
+  </div>
+
+  <!-- PIECE 7: US Onboarding Screen -->
+  <div class="showcase showcase-dark" style="margin-top: 3rem; text-align: center; padding: 3rem;">
+    <div class="showcase-label">07 &mdash; US Onboarding Screen (Bilingual)</div>
+    <div style="max-width: 320px; margin: 0 auto; background: var(--white); border-radius: 24px; padding: 2.5rem 2rem; color: var(--dark);">
+      <div style="font-size: 2rem; color: var(--naranja); margin-bottom: 0.5rem;">&#x1F433;</div>
+      <div style="font-weight: 700; font-size: 0.9rem; margin-bottom: 2rem;">payphone</div>
+      <div style="font-weight: 700; font-size: 1.3rem; line-height: 1.2; margin-bottom: 0.75rem;">Welcome to Payphone.<br><span style="color: var(--gray-400); font-size: 1.1rem;">Bienvenido a Payphone.</span></div>
+      <div style="font-size: 0.85rem; color: var(--gray-600); line-height: 1.5; margin-bottom: 1.5rem;">Pay, get paid, send money home &mdash; all from this phone. Zero cost.<br><span style="color: var(--gray-400); font-size: 0.8rem;">Paga, cobra, envia dinero a casa &mdash; todo desde tu telefono. Cero costo.</span></div>
+      <div style="background: var(--naranja); color: white; padding: 0.8rem; border-radius: 12px; font-weight: 600; font-size: 0.9rem; margin-bottom: 0.75rem;">Get started / Empezar</div>
+      <div style="font-size: 0.75rem; color: var(--gray-400);">Already have an account? <span style="color: var(--naranja);">Sign in</span></div>
+    </div>
+  </div>
+
+  <!-- PIECE 8: Push Notification -->
+  <div class="showcase" style="margin-top: 3rem;">
+    <div class="showcase-label">08 &mdash; US Push Notification (Remittance Confirmation)</div>
+    <div style="background: var(--white); border: 1px solid var(--gray-200); border-radius: 16px; padding: 1.25rem 1.5rem; max-width: 400px; display: flex; gap: 1rem; align-items: flex-start;">
+      <div style="width: 40px; height: 40px; border-radius: 10px; background: var(--naranja); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: white; font-size: 1.2rem;">&#x1F433;</div>
+      <div>
+        <div style="font-weight: 700; font-size: 0.9rem; margin-bottom: 0.25rem;">Your family just received $350.</div>
+        <div style="font-size: 0.8rem; color: var(--gray-600); line-height: 1.5;">Maria Elena in Guayaquil received your transfer instantly. Zero fees. That is $24 you kept this month compared to Western Union.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PIECE 9: Pitch Deck Opening -->
+  <div class="showcase showcase-dark" style="margin-top: 3rem; text-align: center; padding: 4rem;">
+    <div class="showcase-label">09 &mdash; Pitch Deck Opening Narrative (Slide 1-2 Voiceover)</div>
+    <p class="showcase-body" style="font-size: 1.15rem; line-height: 1.9; max-width: 600px; margin: 0 auto; text-align: left;">
+      "If the US Hispanic population were its own country, it would be the fifth-largest economy on Earth. Bigger than India. Bigger than the UK. Bigger than France.
+      <br><br>
+      This economy generates $2.8 trillion in GDP. It sends $68 billion home every year. It starts businesses at twice the national rate.
+      <br><br>
+      And the best financial product Silicon Valley has built for it is a language toggle.
+      <br><br>
+      We did not build Payphone in Silicon Valley. We built it in the place these families call home."
+    </p>
+  </div>
+
+  <!-- PIECE 10: Partnership Email -->
+  <div class="showcase" style="margin-top: 3rem;">
+    <div class="showcase-label">10 &mdash; Partnership Email to Latino Business Association</div>
+    <p class="showcase-body"><strong>Subject: Zero-cost card acceptance for your members &mdash; Payphone + [Association Name]</strong></p>
+    <br>
+    <p class="showcase-body">Dear [Name],</p>
+    <p class="showcase-body">I am reaching out because [Association Name] represents exactly the business owners Payphone was built for &mdash; and I believe we can create something genuinely valuable for your members.</p>
+    <p class="showcase-body">Quick context: Payphone is a financial platform trusted by over 2 million users across Latin America. We are launching in the United States, and our first priority is serving Latino-owned small businesses with three things they need and cannot currently get from a single provider:</p>
+    <p class="showcase-body">
+      1. <strong>TAP to Phone:</strong> Accept card payments by tapping the customer's card directly to the merchant's phone. No hardware. No terminal. No rental fees. Just a phone they already own.<br>
+      2. <strong>Zero processing fees:</strong> Not 2.6%. Not 1.9%. Zero. On every transaction.<br>
+      3. <strong>Bilingual everything:</strong> App, support, onboarding, reports &mdash; all natively available in English and Spanish. Not translated. Built.
+    </p>
+    <p class="showcase-body">Here is what I am proposing: a partnership where [Association Name] members get priority access to Payphone, dedicated onboarding support in Spanish, and a co-branded resource page showing your members how to eliminate processing fees entirely.</p>
+    <p class="showcase-body">We are not asking for an endorsement. We are asking for the opportunity to prove the value to your members directly. If even 100 of your members save $5,000/year in processing fees (the average for a $20K/month business switching from Square), that is $500,000 back into the community annually.</p>
+    <p class="showcase-body">Would 20 minutes be worth exploring this?</p>
+    <p class="showcase-body">Con mucho respeto,<br>Juan Diego<br>Founder, Payphone | Unicore LLC<br>payphone.com</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 09 US BRAND RULES -->
+<!-- ============================================================ -->
+<section id="rules" class="section-dark">
+  <div class="section-num">09 &mdash; US Brand Rules</div>
+  <h2 class="light">US Brand Rules</h2>
+  <p class="lead">Ten prohibitions specific to the US market. These exist because the cultural, competitive, and regulatory environment in the US creates unique traps that well-intentioned marketers fall into every day. These walls prevent Payphone from becoming "just another Hispanic fintech."</p>
+
+  <div class="dont-item" style="border-color: rgba(255,255,255,0.1);">
+    <div class="dont-num">01</div>
+    <div class="dont-text" style="color: var(--white);">
+      <strong>Never say "for the underbanked."</strong>
+      Payphone does not serve "underbanked" people. That is a term invented by banks to describe their own failure to serve a market. Payphone serves people whose financial sophistication exceeds the products available to them. The framing is "better tools for sophisticated financial lives" &mdash; not "access for the underserved." One positions the user as capable. The other positions the user as lacking.
+    </div>
+  </div>
+
+  <div class="dont-item" style="border-color: rgba(255,255,255,0.1);">
+    <div class="dont-num">02</div>
+    <div class="dont-text" style="color: var(--white);">
+      <strong>Never use stock photography of "Hispanic families."</strong>
+      Every stock photo agency has a folder called "Hispanic Lifestyle" filled with images of multi-generational families laughing around a kitchen table. These images are not representation &mdash; they are decoration. Payphone uses real photography of real people in real environments. If the image could appear on a Remitly ad, a Wells Fargo branch poster, and a Goya Foods commercial simultaneously, it is too generic to use.
+    </div>
+  </div>
+
+  <div class="dont-item" style="border-color: rgba(255,255,255,0.1);">
+    <div class="dont-num">03</div>
+    <div class="dont-text" style="color: var(--white);">
+      <strong>Never scatter random Spanish words into English copy.</strong>
+      "Hola amigos, ready for some easy dinero?" is not bilingual marketing. It is a costume. Code-switching follows the rules defined in Section 04: the switch must happen where a bilingual person would naturally switch, the Spanish must carry meaning (not decoration), and both languages must be grammatically correct. When in doubt, write the entire piece in one language rather than doing the code-switch badly.
+    </div>
+  </div>
+
+  <div class="dont-item" style="border-color: rgba(255,255,255,0.1);">
+    <div class="dont-num">04</div>
+    <div class="dont-text" style="color: var(--white);">
+      <strong>Never use the word "community" as a substitute for specificity.</strong>
+      "We serve the Hispanic community" means nothing because "the Hispanic community" is not one thing. It is 63 million people from 20+ countries with different dialects, cultures, immigration histories, and financial needs. Always be specific: "We serve Latino small business owners in Houston" or "We serve first-generation immigrants who send remittances to Central America." Specificity is respect. Generalization is laziness.
+    </div>
+  </div>
+
+  <div class="dont-item" style="border-color: rgba(255,255,255,0.1);">
+    <div class="dont-num">05</div>
+    <div class="dont-text" style="color: var(--white);">
+      <strong>Never position Payphone as a charity or a social mission.</strong>
+      Payphone is a business. A good business that does right by its users, but a business. The zero-cost model works because of structural unit economics, not because of altruism. Positioning the company as a social enterprise invites lower valuations, mission-drift expectations, and the assumption that profitability is a secondary concern. It is not. Payphone makes money by saving people money. That is capitalism at its most aligned.
+    </div>
+  </div>
+
+  <div class="dont-item" style="border-color: rgba(255,255,255,0.1);">
+    <div class="dont-num">06</div>
+    <div class="dont-text" style="color: var(--white);">
+      <strong>Never reference immigration status, documentation, or legal residency in marketing.</strong>
+      Payphone serves everyone who qualifies under US financial regulations. The brand never references, implies, or markets around immigration status. This is both an ethical commitment and a regulatory requirement. The product speaks to financial needs, never to legal categories. Any content that could be interpreted as targeting undocumented populations &mdash; even with good intentions &mdash; is a compliance and brand risk that must be avoided absolutely.
+    </div>
+  </div>
+
+  <div class="dont-item" style="border-color: rgba(255,255,255,0.1);">
+    <div class="dont-num">07</div>
+    <div class="dont-text" style="color: var(--white);">
+      <strong>Never assume all Hispanic Americans speak Spanish.</strong>
+      One in four US Hispanics speaks English only. The bilingual strategy is an asset, not a requirement for the user. Payphone works perfectly in English-only mode. The Spanish capability is there when users want it &mdash; it is never forced. Marketing materials should reflect this: lead in English, offer Spanish as a natural option, never require it.
+    </div>
+  </div>
+
+  <div class="dont-item" style="border-color: rgba(255,255,255,0.1);">
+    <div class="dont-num">08</div>
+    <div class="dont-text" style="color: var(--white);">
+      <strong>Never compare Payphone to legacy remittance services by mocking them.</strong>
+      Western Union may charge high fees, but for millions of people, it was the lifeline that kept families connected. Many Payphone users have deep emotional associations with these services &mdash; they remember their mother walking to a Western Union office. Payphone competes on product superiority, not by belittling the tools that served people when nothing else would. Critique the model. Respect the history.
+    </div>
+  </div>
+
+  <div class="dont-item" style="border-color: rgba(255,255,255,0.1);">
+    <div class="dont-num">09</div>
+    <div class="dont-text" style="color: var(--white);">
+      <strong>Never use flags, national colors, or country-specific iconography in general marketing.</strong>
+      The US Hispanic market includes people from Mexico, Guatemala, El Salvador, Colombia, Ecuador, Dominican Republic, Cuba, Puerto Rico, Peru, and more. A Mexican flag does not represent a Guatemalan. A Colombian coffee graphic does not represent an Ecuadorian. General market materials use Payphone's own brand identity &mdash; never borrowed national symbols. Country-specific imagery is permitted only in corridor-specific campaigns targeting a single nationality.
+    </div>
+  </div>
+
+  <div class="dont-item" style="border-color: rgba(255,255,255,0.1);">
+    <div class="dont-num">10</div>
+    <div class="dont-text" style="color: var(--white);">
+      <strong>Never dodge the name question &mdash; own it.</strong>
+      "What is a Payphone?" will be asked. Frequently. By Americans who associate the word with the extinct street-corner telephone. Do not avoid this. Lean into it. The answer is the brand story: "A payphone was the first piece of democratic communication technology &mdash; anyone could use it, the barrier was a coin, and the technology disappeared behind the connection. We named our company after that principle. Anyone can use Payphone. The barrier is zero. And the technology disappears behind the thing that matters: your money, your family, your business." The name's apparent obsolescence is actually its most memorable quality. It generates the question that gives us the stage to deliver the answer.
+    </div>
+  </div>
+
+  <h3 style="color: var(--naranja); margin-top: 3rem;">Cultural Sensitivity Framework</h3>
+  <p style="color: var(--gray-400);">Before any US-market content ships, it must pass this three-question filter:</p>
+  <div class="callout callout-tip" style="background: rgba(255,100,0,0.05);">
+    <div class="callout-label">Question 01</div>
+    <p style="color: var(--gray-400);"><strong>"Would a first-generation immigrant from Guatemala and a third-generation Mexican-American in LA both feel respected by this content?"</strong> If the content works for one but alienates the other, it is too narrow. Payphone's US brand must bridge generational and national differences without erasing them.</p>
+  </div>
+  <div class="callout callout-tip" style="background: rgba(255,100,0,0.05);">
+    <div class="callout-label">Question 02</div>
+    <p style="color: var(--gray-400);"><strong>"Does this content reduce a person to their ethnicity, or does it speak to a financial need that their ethnicity happens to inform?"</strong> Payphone is a financial product, not a cultural product. The bilingual, cross-border features exist because of real financial needs &mdash; not because "Hispanics like things in Spanish." Functionality first, cultural resonance second.</p>
+  </div>
+  <div class="callout callout-tip" style="background: rgba(255,100,0,0.05);">
+    <div class="callout-label">Question 03</div>
+    <p style="color: var(--gray-400);"><strong>"Would this content work if Payphone's name and logo were removed?"</strong> If the answer is yes &mdash; if any fintech could have made this ad &mdash; it is too generic. Payphone's content must be ownable. Only Payphone has the LATAM origin story, the 2M-user proof point, the TAP to Phone differentiator, and the cross-border architecture. Content that does not leverage at least one of these is wasting Payphone's competitive position.</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!-- 10 US BRAND ROLLOUT PHASES -->
+<!-- ============================================================ -->
+<section id="rollout">
+  <div class="section-num">10 &mdash; US Brand Rollout Phases</div>
+  <h2>US Brand Rollout Phases</h2>
+  <p class="lead">The US launch is not a single event. It is a three-phase campaign that builds from community whisper to market roar. Each phase has a distinct brand objective, channel mix, and success metric. The phases overlap &mdash; Phase 1 activities continue into Phase 2 &mdash; but the primary investment shifts as each phase achieves its threshold.</p>
+
+  <!-- PHASE 1 -->
+  <div class="phase">
+    <div class="phase-label">Phase 1 &mdash; Soft Launch (Months 1-3)</div>
+    <h3>Community Seeding: "The Insiders"</h3>
+    <p><strong>Objective:</strong> Build a core of 5,000-10,000 US users through warm networks, community channels, and cross-border referrals before spending a dollar on paid acquisition.</p>
+    <p><strong>Brand Mode:</strong> Quiet confidence. Payphone does not announce itself with a press release. It arrives through the back door &mdash; via family connections, community events, and word of mouth. The brand energy is "discovery," not "launch."</p>
+
+    <h4>Brand Elements</h4>
+    <ul>
+      <li><strong>Juan Diego's LinkedIn content shifts</strong> to US market thesis posts &mdash; thought leadership about the Hispanic fintech gap, the remittance tax, the merchant opportunity. Three to four posts per week establishing the narrative before the product needs to carry it.</li>
+      <li><strong>Cross-border referral program:</strong> Every Payphone user in Ecuador, Guatemala, and El Salvador gets an invitation to refer family members in the US. The message: "Your family already uses Payphone. Now you can too." The referral is the distribution channel and the trust mechanism simultaneously.</li>
+      <li><strong>Community events in four cities:</strong> Houston, Miami, Los Angeles, New York. Small events (50-100 people) at community centers, churches, and Latino business association meetings. Not branded events &mdash; financial literacy workshops where Payphone is a natural part of the conversation.</li>
+      <li><strong>WhatsApp community groups</strong> in each target city. Moderated in Spanish. Product updates, tips, and direct access to the Payphone team. These groups become the feedback loop and the first line of organic distribution.</li>
+      <li><strong>No paid media.</strong> No press. No billboards. Phase 1 is earned and owned channels only. The constraint is intentional: if the product cannot grow through community channels in this phase, paid media will not save it.</li>
+    </ul>
+
+    <h4>Success Metrics</h4>
+    <table>
+      <thead>
+        <tr><th>Metric</th><th>Target</th><th>Why It Matters</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>US app downloads</td><td>10,000</td><td>Baseline demand validation</td></tr>
+        <tr><td>Cross-border referral conversion</td><td>15%+</td><td>Proves the "complete the circuit" thesis</td></tr>
+        <tr><td>D30 retention</td><td>40%+</td><td>Product-market fit signal</td></tr>
+        <tr><td>Average transactions/user/month</td><td>4+</td><td>Engagement beyond single-use remittance</td></tr>
+        <tr><td>NPS</td><td>50+</td><td>Word-of-mouth readiness for Phase 2</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- PHASE 2 -->
+  <div class="phase">
+    <div class="phase-label">Phase 2 &mdash; Market Entry (Months 4-9)</div>
+    <h3>PR + Paid: "The Arrival"</h3>
+    <p><strong>Objective:</strong> Scale to 50,000-100,000 US users. Establish Payphone's name recognition in the US Hispanic fintech conversation. Begin paid acquisition with benchmarked unit economics from Phase 1.</p>
+    <p><strong>Brand Mode:</strong> Confident declaration. Payphone now announces itself. The "reverse migration" PR narrative launches. Paid media begins, informed by Phase 1 data on which personas, messages, and corridors convert best.</p>
+
+    <h4>Brand Elements</h4>
+    <ul>
+      <li><strong>PR push:</strong> Embargo'd launch story to TechCrunch or The Information. Simultaneous coverage in Bloomberg Linea, Rest of World, PYMNTS, and Latino-focused media (Remezcla, mittu, Latina Media). The angle: "The LATAM fintech that crossed the border." Juan Diego available for podcast circuit: How I Built This (NPR), The Fintech Blueprint, Latino USA, My Familia First.</li>
+      <li><strong>Paid media activation:</strong> Facebook/Instagram (primary), TikTok (secondary), Google (brand protection + generic). Three creative tracks mapped to three personas: remittance (Marco), bicultural (Sofia), merchant (Roberto). Budget allocation based on Phase 1 persona conversion data.</li>
+      <li><strong>City-level OOH:</strong> Billboards and transit ads in Houston (I-45 corridor, Gulfton), Miami (Calle Ocho, Hialeah), Los Angeles (East LA, Van Nuys). Message: "Your money should not cost you money. Payphone." Clean, Naranja on white or Naranja on dark. One statement, one CTA. No clutter.</li>
+      <li><strong>Partnership launches:</strong> First Latino business association partnership goes live. First soccer league sponsorship activates. First community event scales from workshop to branded activation.</li>
+      <li><strong>Influencer Tier 2 activation:</strong> 10-15 cultural amplifiers begin showing Payphone in organic content. Not scripted endorsements &mdash; real usage, real transactions, real TAP to Phone moments in their businesses.</li>
+    </ul>
+
+    <h4>Success Metrics</h4>
+    <table>
+      <thead>
+        <tr><th>Metric</th><th>Target</th><th>Why It Matters</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>US app downloads</td><td>100,000</td><td>Scale validation</td></tr>
+        <tr><td>CAC (blended)</td><td>Below $15</td><td>Unit economics viability for growth</td></tr>
+        <tr><td>Remittance volume</td><td>$5M/month</td><td>Cross-border corridor traction</td></tr>
+        <tr><td>Active merchants (TAP to Phone)</td><td>2,000</td><td>B2B product-market fit</td></tr>
+        <tr><td>Press mentions</td><td>25+ Tier 1/2 outlets</td><td>Brand awareness + investor signal</td></tr>
+        <tr><td>D30 retention</td><td>35%+</td><td>PMF maintained at scale</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- PHASE 3 -->
+  <div class="phase">
+    <div class="phase-label">Phase 3 &mdash; Growth (Months 10-18)</div>
+    <h3>Partnerships + Scale: "The Standard"</h3>
+    <p><strong>Objective:</strong> Scale to 500,000+ US users. Establish Payphone as the default financial platform for US Hispanic consumers and merchants. Begin flywheel: cross-border referrals + merchant network effects + brand recognition create self-sustaining growth.</p>
+    <p><strong>Brand Mode:</strong> Category ownership. Payphone stops explaining what it is and starts acting like the incumbent in the category it created. The brand energy shifts from "meet Payphone" to "of course, Payphone."</p>
+
+    <h4>Brand Elements</h4>
+    <ul>
+      <li><strong>National campaign:</strong> "Both Sides of the Border" &mdash; a brand campaign anchored by a 60-second film showing the same app, the same orange, the same whale tail in Quito and Houston, Guayaquil and Miami, Guatemala City and Los Angeles. The film ends with: "One app. Both worlds. Payphone." Runs across connected TV, YouTube, Instagram, and TikTok.</li>
+      <li><strong>Expansion to secondary markets:</strong> Chicago (Pilsen, Little Village), Dallas-Fort Worth, Phoenix, San Antonio, Denver, Charlotte, Atlanta. Each city gets a localized soft launch (compressed Phase 1) followed by paid activation.</li>
+      <li><strong>Product-led growth loops:</strong> Merchant payment acceptance creates consumer acquisition (customer taps, sees Payphone, downloads). Consumer remittances create recipient-side growth in LATAM. Both sides of the network reinforce each other.</li>
+      <li><strong>Enterprise partnerships:</strong> Co-branded offerings with national Latino business organizations, regional banks serving Hispanic markets, and consumer brands seeking distribution to this demographic. Payphone becomes the payment infrastructure partner, not just a consumer app.</li>
+      <li><strong>Investor narrative compounds:</strong> The US traction data, layered on top of LATAM proof points, creates a fundraising story that is category-defining, not incremental. The brand narrative shifts from "we are entering the US" to "we are the cross-border financial platform for the Americas."</li>
+    </ul>
+
+    <h4>Success Metrics</h4>
+    <table>
+      <thead>
+        <tr><th>Metric</th><th>Target</th><th>Why It Matters</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>US users</td><td>500,000+</td><td>Critical mass for network effects</td></tr>
+        <tr><td>Monthly remittance volume</td><td>$50M+</td><td>Corridor dominance signal</td></tr>
+        <tr><td>Active merchants</td><td>15,000+</td><td>B2B flywheel</td></tr>
+        <tr><td>Cities with active presence</td><td>12+</td><td>National footprint</td></tr>
+        <tr><td>Brand-unaided awareness (target demo)</td><td>15%+</td><td>Category ownership indicator</td></tr>
+        <tr><td>Revenue run rate</td><td>Investor-grade</td><td>Series readiness</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <hr>
+
+  <div class="declaration" style="margin-top: 3rem;">
+    We did not build Payphone to be the next Venmo. We built it to be the financial platform that 63 million people have been waiting for without knowing it existed &mdash; because no one who understood their lives had built it yet. We understand their lives. We built it. And now we are here.
+  </div>
+
+  <p style="margin-top: 2rem; font-size: 0.85rem; color: var(--gray-400); text-transform: uppercase; letter-spacing: 0.1em;">End of Document &mdash; Payphone US Market Brand Book 2026 &mdash; Confidential &mdash; Unicore LLC</p>
+</section>
+
+</main>
+
+<script>
+// Active nav highlighting on scroll
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('nav a');
+
+function updateNav() {
+  let current = '';
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 200;
+    if (scrollY >= sectionTop) {
+      current = section.getAttribute('id');
+    }
+  });
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) {
+      link.classList.add('active');
+    }
+  });
+}
+
+window.addEventListener('scroll', updateNav);
+window.addEventListener('load', updateNav);
+</script>
+
+</body>
+</html>
